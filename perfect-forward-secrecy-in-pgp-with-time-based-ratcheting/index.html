@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog.">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Perfect forward secrecy in PGP with time-based ratcheting</title>
+</head>
+<body><header id="banner">
+    <h2><a href="/">yanmaani&#39;s blog</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Perfect forward secrecy in PGP with time-based ratcheting</h1>
+            <div>
+                <time>November 5, 2021</time>
+                </div>
+    </header><p><em>Standard disclaimer: This is probably a bad idea in some way, and I am almost certainly not the first one to come up with it. However, I do not have any kind of training in cryptography, and so I would not know how or by whom.</em></p>
+<p>Update 2021-11-09: <a href="https://github.com/stealth/opmsg">opmsg</a> seems like it does some of what I want with the deniable signatures, and does stateful ratcheting in a semi-interesting way. I haven’t looked into it much, but at least it clearly disproves my point that nobody is trying to innovate.</p>
+<p>PGP is an encryption software from the 1990s. Like many other things from that time period, it has <a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html">various problems</a> and serious cryptography people <a href="https://blog.filippo.io/giving-up-on-long-term-pgp/">do not like</a> it. However, they <a href="https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html">do not like anything that has anything to do with e-mail</a>, and so they are not going to invent anything better:</p>
+<blockquote>
+<p>Encrypting email is asking for a calamity. Recommending email encryption to at-risk users is malpractice. Anyone who tells you it’s secure to communicate over PGP-encrypted email is putting their weird preferences ahead of your safety.</p>
+</blockquote>
+<p>The logical result of this situation is that we are stuck with a terrible piece of software that nobody actually likes, because it is ugly, but that nobody wants to replace, because the replacement would also be ugly.</p>
+<p>The root cause of the problem is that PGP is <em>stateless</em>. To encrypt a message to someone, I need only their public key. To sign them, I need only my private key. This is opposed to something like <a href="https://signal.org/docs/specifications/doubleratchet/">Signal</a>, where I need a smart external third-party server and lots of state, or <a href="https://otr.cypherpunks.ca/otr-wpes.pdf">OTR</a>, where I have to be on-line at the same time as my conversation partner and exchange keys with them and stuff.</p>
+<p>The pros of this approach? In PGP, I can just touch and go, no need for handshakes.<br />
+The cons of this approach? In PGP, I can just touch and go, no need for handshakes.</p>
+<p>Astute observers will notice this as a textbook example of the so-called “New Jersey style,” also known as “<a href="https://dreamsongs.com/RiseOfWorseIsBetter.html">Worse Is Better</a>”: <em>it is often undesirable to go for the right thing first. It is better to get half of the right thing available so that it spreads like a virus. Once people are hooked on it, take the time to improve it to 90% of the right thing.</em></p>
+<p>In PGP’s case, they neglected to do the second half, and this is where the fun starts.</p>
+<h2 id="perfect-forward-secrecy">Perfect forward secrecy</h2>
+<p>Let’s picture the simplest possible way to do e-mail encryption: each e-mail address has a public key associated to it. To send an e-mail to someone, you encrypt it with their public key. If you want to prove you sent it, you also sign it with your private key.</p>
+<p>Since PGP does things in the simplest way imaginable<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, you are currently picturing PGP.</p>
+<p>The downside of this system is that anyone who obtains their private key can decrypt the message, and anyone who has a copy of the message can see it’s signed.</p>
+<p>Naively, this would maybe not seem like a terrible problem. We expect secret keys to remain secret. If they don’t, that is outside of the threat model. And surely the purpose of a signature is to verify who sent the message?</p>
+<p>The devil is in the details: the secret keys are supposed to stay secret, but for how long? If someone is monitoring your e-mail and taking copies of all your (encrypted) messages, you’re deleting all your e-mails after two weeks, and your key is compromised, what happens?</p>
+<ol type="A">
+<li>The messages of the last two weeks are compromised<br />
+</li>
+<li>All the messages I have sent with that key, ever, are compromised</li>
+<li>None of the messages are compromised</li>
+</ol>
+<p>You guessed it. The answer is, of course, B.</p>
+<p>This problem is further compounded by the lack of <em>deniability</em>. When the e-mails inevitably leak, there will be a cryptographic record that links the sender to his e-mail.</p>
+<p>So, the PGP developers foresaw this problem. And being ardent adherents of <em>simple and robust</em> design philosophies (after all, it got them to where they are now), they applied the principle of “it is more important for the implementation to be simple than the interface”. If it causes problems when old keys are compromised, users will either have to make sure that never happens or rotate them every now and then. And so PGP was built with this assumption in mind, and users who fail to rotate their keys are <em>outside the threat model</em>.</p>
+<p>In practice, what happens is people forget to rotate their keys. Even when they don’t, they’ll still keep the old ones around “for good measure”. And whenever their key gets compromised, that’s that.</p>
+<p>So how would a good encryption system work? One that follows the “MIT style”, and writes genuinely good software, that sacrifices simplicity for correctness? Let’s take a look at a hypothetical protocol<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> which actually would be secure:</p>
+<ol type="1">
+<li>Obtain your interlocutor’s public key.</li>
+<li>Send them your public key.</li>
+<li>Use their public key and your private key to generate a <em>shared secret</em>. Because of the nature of <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">the algorithm</a> that is used, the shared secret will be the same whether generated with their private key and your public key, or with their public key and your private key (that’s why it’s shared and that’s why it’s secret).</li>
+<li>Generate an “ephemeral” (temporary) key pair based on random data.</li>
+<li>Sign its public key with a <a href="https://en.wikipedia.org/wiki/Message_authentication_code">message authentication code</a>, using the shared secret you derived in step 3. Basically, calculate signature = SHA-256(ephemeral public key || shared secret)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> and send ephemeral public key + signature over the wire.</li>
+<li>Receive their signed ephemeral public key in the same way.</li>
+<li>Generate a new shared secret using those two, and use this<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> to communicate using <a href="https://en.wikipedia.org/wiki/Authenticated_encryption">authenticated encryption</a>.</li>
+<li>Every now and then, generate a new ephemeral keypair and throw away the old one.</li>
+</ol>
+<p>The magic happens in step four. Since our master keys - the keys from step 1-2 - are only ever used for signatures, they can be totally compromised after the fact, without loss of privacy. Even if he has them, all he can do is use them to sign ephemeral keys. But he can’t go back in time and actually make us use those keys. The keys that we used to actually encrypt the material have already been discarded. In this way, we have <a href="https://en.wikipedia.org/wiki/Forward_secrecy">forward secrecy</a>: <em>session keys will not be compromised even if long-term secrets used in the session key exchange are compromised</em>.</p>
+<p>Now, if PGP users did rotate their keys every three months or whatever happens to be the latest guidance, they, too, would enjoy this. The problem is that nobody ever does. For one, that would require them to change their key, which would require them to redistribute it again, and key exchange is always the weak point.</p>
+<p>There is also another interesting property here, <a href="https://en.wikipedia.org/wiki/Deniable_authentication">deniable (“repudiable”) authentication</a>. During the conversation, all the messages are authenticated, and a third party can’t forge messages so they look like my interlocutor sent them. However, if my interlocutor is logging the conversation to leak it to the press afterwards, there’s no signatures there that actually binds me to the conversation.</p>
+<p>How is this accomplished? Simple - messages are signed with the shared secret. During the conversation, I obviously know which messages I’m sending and which ones I amn’t. But for someone looking at the transcript afterwards, he only knows they were signed by one of the two.</p>
+<p>Actually, it is possible to accomplish this in PGP too. First, use a separate key for signatures. Second, post its <em>private key</em> online after you’re done. The problem is that nobody actually does this, because it would - if nothing else - require them to do key rotation.</p>
+<h2 id="the-proposal-deniable-signatures">The proposal: deniable signatures</h2>
+<p>If I’m sending something to someone and signing it with my key, I actually already have everything I need for a deniable signature. I’ll take their public key and my private key, compute a shared secret, and then use this to compute a MAC over the whole message. If a third party then gets ahold of this MAC, one of two things will be true:</p>
+<ol type="1">
+<li>They do not have either private key, in which case they will not be able to verify anything.</li>
+<li>They have at least one private key, in which case they can forge any signature they want.</li>
+</ol>
+<p>Replacing old PGP signatures with this would actually be very easy. Since nobody checks them anyway, you could just replace them all tomorrow and nobody would notice. Whoever did want to verify signatures could just install a version of PGP with support for them. Because they’ve already bolted on so much crap, another half-baked encryption scheme would hardly even be noticed.</p>
+<figure>
+<img src="/1181.png" title="If you want to be extra safe, check that there&#39;s a big block of jumbled characters at the bottom." alt="" /><figcaption><a href="https://xkcd.com/1181/">Source</a></figcaption>
+</figure>
+<p>Another advantage of these signatures is that they would be considerably shorter. HMAC-SHA256 produces “signatures” of 32 bytes. Here’s what that would look like when encoded in base64:</p>
+<pre><code>-----BEGIN PGP SIGNATURE-----
+47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+-----END PGP SIGNATURE-----</code></pre>
+<p>The downside of this is that it would require PGP users to standardize on a single public key format. Oh, the horrors!</p>
+<h2 id="the-proposal-forward-secrecy">The proposal: forward secrecy</h2>
+<p>Now, if you’re a <em>nice</em> protocol, there’s a simple way you can get forward secrecy. <a href="https://www.signal.org/blog/advanced-ratcheting/">Ratcheting</a>. Each message, you take your old key, you hash it, and now you have a new key. Because hashes are irreversible - you can’t turn the hamburger back into a cow - the compromise of the new key doesn’t lead to the compromise of the old key. That way, you have forward secrecy. (You do not have “backward secrecy”, because the old key still leads to the new key.)</p>
+<p>This system basically resembles <a href="https://en.wikipedia.org/wiki/HMAC-based_one-time_password">HOTP</a>. You have a common counter which is synchronized, and then the HMAC over our secret key and the counter is used to generate an authentication key. The problem with this is that it isn’t stateless. For PGP-like systems, we can’t really keep a synchronized counter like that. So what can we do?</p>
+<p>Well, there’s one thing that we still have access to, without any advanced synchronization. <strong>Time.</strong> That’s why everyone switched to the much simpler <a href="https://en.wikipedia.org/wiki/Time-based_One-Time_Password">TOTP</a> protocol instead. Instead of using a counter, it just uses your clock. As long as your clock is somewhat accurate, you can agree on the same number as the device without needing to coordinate anything.</p>
+<p>TOTP, however, doesn’t have forward secrecy. For that, we need to look at an even older protocol, <a href="https://en.wikipedia.org/wiki/S/KEY">S/KEY</a>. Here’s how S/KEY works:</p>
+<ol type="1">
+<li>Take your password, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>W</mi><annotation encoding="application/x-tex">W</annotation></semantics></math>.</li>
+<li>Let <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>H</mi><mi>n</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">H^n(W)</annotation></semantics></math> denote a hash chain <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> times, e.g. <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>H</mi><mn>3</mn></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>H</mi><mo stretchy="false" form="prefix">(</mo><mi>H</mi><mo stretchy="false" form="prefix">(</mo><mi>H</mi><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">H^3(W) = H(H(H(W)))</annotation></semantics></math> - “hash W thrice”.</li>
+<li>Keep a synchronized counter between the server and the client. Initiate it at, say, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>1000</mn></mrow><annotation encoding="application/x-tex">n = 1000</annotation></semantics></math>.</li>
+<li>Store on the server <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>=</mo><msup><mi>H</mi><mi>n</mi></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">P = H^n(W)</annotation></semantics></math>.</li>
+<li>To log in the first time, calculate <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><msup><mi>H</mi><mn>999</mn></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">p = H^999(W)</annotation></semantics></math> and send this to the server. The server checks that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>H</mi><mo stretchy="false" form="prefix">(</mo><mi>p</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>P</mi></mrow><annotation encoding="application/x-tex">H(p) = P</annotation></semantics></math>, i.e. that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>H</mi><mo stretchy="false" form="prefix">(</mo><msup><mi>H</mi><mn>999</mn></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msup><mi>H</mi><mn>1000</mn></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">H(H^999(W)) = H^1000(W)</annotation></semantics></math>. If so, the login was successful, both parties decrement W by 1, and the server replaces <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>P</mi><annotation encoding="application/x-tex">P</annotation></semantics></math> with the succesful <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math>. Note that the server doesn’t actually know what <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="application/x-tex">p</annotation></semantics></math> is supposed to be in advance.</li>
+<li>The next time, the client has to calculate <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><msup><mi>H</mi><mn>998</mn></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">p = H^998(W)</annotation></semantics></math> instead. Note that, even though no encryption is used, an attacker can’t glean any useful information from monitoring the connection - after it’s been used to log in once, <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>H</mi><mn>999</mn></msup><mo stretchy="false" form="prefix">(</mo><mi>W</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">H^999(W)</annotation></semantics></math> no longer grants you any access.</li>
+</ol>
+<p>My<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> idea, then, is that we basically do this for keys, but using the time instead of a synchronized counter. All we need is a hash function<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> that works on keys. Ideally, it would have these properties (k is a private key and K is its corresponding public key):</p>
+<ol start="0" type="1">
+<li>There exists <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">N(k)</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>K</mi></mrow><annotation encoding="application/x-tex">N(k) = K</annotation></semantics></math> (e.g. <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>k</mi><mi>G</mi><mo>=</mo><mi>K</mi></mrow><annotation encoding="application/x-tex">N(k) = kG = K</annotation></semantics></math> for ECC), but no <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mi>x</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>K</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_x(K)</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mi>x</mi></msub><mo stretchy="false" form="prefix">(</mo><mi>K</mi><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">f_x(K) = k</annotation></semantics></math>.</li>
+<li>There exists <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_1(k)</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>k</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>k</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_1(k_i) = f_1(k_{i+1})</annotation></semantics></math></li>
+<li>There exists <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>K</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_2(K)</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>K</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>K</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_2(K_i) = f_2(K_{i+1})</annotation></semantics></math></li>
+<li>There <strong>does not</strong> exist <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>3</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>k</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_3(k)</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>3</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>k</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>f</mi><mn>3</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>k</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_3(k_i) = f_3(k_{i-1})</annotation></semantics></math></li>
+<li>There <strong>does not</strong> exist <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>4</mn></msub><mo stretchy="false" form="prefix">(</mo><mi>K</mi><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_4(K)</annotation></semantics></math> such that <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>4</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>K</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>f</mi><mn>4</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>K</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="false" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">f_4(K_i) = f_4(K_{i-1})</annotation></semantics></math></li>
+<li><math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mn>0</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>f</mi><mn>1</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>k</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>f</mi><mn>2</mn></msub><mo stretchy="false" form="prefix">(</mo><msub><mi>K</mi><mi>i</mi></msub><mo stretchy="false" form="postfix">)</mo><mo>=</mo><msub><mi>K</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub></mrow><annotation encoding="application/x-tex">f_0(f_1(k_i)) = f_2(K_i) = K_{i+1}</annotation></semantics></math></li>
+</ol>
+<p>Unfortunately, I can’t find any protocols that both have properties 2 and 5.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> If you know one, please contact me! However, if we accept that third parties won’t be able to derive our public keys, we can steal a protocol used by Bitcoin. <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p>That protocol is <a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#Child_key_derivation_CKD_functions">BIP32</a>, and it tells us exactly how to do this. The specific protocol we are going to be ripping off is “hardened child key derivation”. Since I am not at all competent or licensed in this, I am just going to use it without attempting to improve or optimize it in any way.</p>
+<p>With this knowledge in hand, we can use a private key to generate a new private key. After a certain interval, we will delete the old one. This enables us to do automatic key rotation/ratcheting, without having to keep anything synchronized with anyone.</p>
+<h2 id="could-this-be-integrated-into-pgp">Could this be integrated into PGP?</h2>
+<p>Theoretically, yes. You’d just do “normal” key rotation and upload the chain of signatures to a PGP server.</p>
+<h2 id="would-this-be-a-panacea">Would this be a panacea?</h2>
+<p>No, OTR is still better. If an old private key of ours is leaked today, that enabled an adversary to decrypt all conversations after that point. But in OTR, even if you have their key, you still have to carry out the actual MITM attack. To see why this is superior, study the following timeline:</p>
+<ol type="1">
+<li>2020-01-01: Key is generated.</li>
+<li>2020-06-01: Private key is stored in some backup, somewhere.</li>
+<li>2021-06-01: Backup service hacked, private key revealed.</li>
+</ol>
+<p>Under OTR, an <em>active</em> adversary can decrypt all communications after <em>June 1, 2021</em> - the moment they got the key. Under “slightly less shitty PGP”, a <em>passive</em> adversary can decrypt all communications after <em>June 1, 2020</em> - the age of the key that was leaked.</p>
+<p>I am not sure what this property is called, but it seems pretty important! If you know, please leave a comment or send me an e-mail!</p>
+<p>Since this protocol is still bad, nobody is going to make it. Mainly because it would be aesthetically unpleasing and nobody wants to work with aesthetically unpleasing software, but also because <em>modern software</em> can’t ship with such security flaws. <em>Old software</em>, like PGP, is grandfathered in, to the chagrin of expert cryptographers around the world. But only something with the rough security level, such that it is, of PGP, is simple enough to actually work for e-mail encryption.</p>
+<p>We are thus stuck with a terrible piece of software that nobody actually likes, because it is ugly, but that nobody wants to replace, because the replacement would also be ugly.</p>
+<h2 id="addendum">Addendum</h2>
+<p>As a proof of concept, I wrote a <a href="/ratchet_secp256k1.py">Python script</a> to actually do this key ratcheting. While it’s a mostly faithful implementation of BIP32, it has a home-rolled replacement for the chain code functionality, because implementing that properly would require a new storage format.</p>
+<p>If that were implemented, you should be able to leak old signing keys with impunity, because there is additional material being used in the deriveation. At some point, I imagine <a href="https://www.gwern.net/Self-decrypting-files">time-lock encryption</a> will actually become viable. With that, you would be able to rig it up to automatically leak old signing keys.</p>
+<p>This is released into the public domain, with even less warranty than the usual “NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE”. Seriously, you really should not use this for anything.</p>
+<p>Usage:</p>
+<pre><code>$ openssl ecparam -name secp256k1 -genkey -out sk.pem
+$ ./ratchet_secp256k1.py sk.pem &lt;itercount&gt;
+-----BEGIN EC PRIVATE KEY-----
+***
+-----END EC PRIVATE KEY-----</code></pre>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Not simple in the way that you would want it, but simple in the way that they would want it. That is to say, it was a simple and elegant design at one point in the 1990s.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>I would have used OTR, but it’s <a href="https://otr.cypherpunks.ca/Protocol-v2-3.1.0.html">slightly more complicated</a> - basically, you do step 1, then steps 4 and 6, then step 7, and then step 2-3, and then finally step 5, but in reverse - sign the shared secret from step 7 with the shared secret from step 3. In this way, you first set up an encrypted channel with ephemeral keys, and then verify the long-term keys.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>In a serious protocol, I think you would generate a new, random key, and then only use the shared secret once, to sign and and encrypt that key using authenticated encryption.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>In practice, there’s some padding and stuff going on too, but we can disregard it in this example. Also, a MAC is not technically a signature.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>This is a lie.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>Technically, a one-way function.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p><a href="https://www.cs.ucdavis.edu/~franklin/ecs228/2007/ijsn_survey_final.pdf">This paper</a> seems like it does what I want, at least from a quick glance.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>It’s still better than PGP :^)<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>

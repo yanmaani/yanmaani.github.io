@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yanmaani&#39;s blog</title>
+    <link>https://yanmaani.github.io/</link>
+    <description>Recent content on yanmaani&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 02 Mar 2022 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yanmaani.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Does Council Regulation (EU) 2022/350 make it illegal to operate a Tor node in the EU?</title>
+      <link>https://yanmaani.github.io/does-council-regulation-eu-2022/350-make-it-illegal-to-operate-a-tor-node-in-the-eu/</link>
+      <pubDate>Wed, 02 Mar 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://yanmaani.github.io/does-council-regulation-eu-2022/350-make-it-illegal-to-operate-a-tor-node-in-the-eu/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: I am not a lawyer. I am writing this not because I have any special qualifications, but because I can’t find anything else about this on the Internet.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Recently, it was announced that the EU is to “ban RT”. I heard you can’t get it on the TV these days, which seems reasonable enough. But I was pointed to the actual text of law, and it seems like it does a bit more than that.&lt;/p&gt;
+&lt;p&gt;If you want to follow along, the regulation in question is &lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R0350&#34;&gt;“Council Regulation (EU) 2022/350 of 1 March 2022 amending Regulation (EU) No 833/2014 concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;(This seems like it was hastily written to alter a sanctions law from a few years ago, to just add “broadcasting” as a prohibited activity and “RT” as a prohibited entity. But when you’re dealing with information control, hack jobs are not ideal.)&lt;/p&gt;
+&lt;p&gt;The purpose of the sanctions are pretty well explained in section 10 of the preamble: (emphasis added)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In view of the gravity of the situation, and in response to Russia’s actions destabilising the situation in Ukraine, it is necessary, consistent with the fundamental rights and freedoms recognised in the Charter of Fundamental Rights, in particular with the right to freedom of expression and information as recognised in Article 11 thereof, to introduce further &lt;strong&gt;restrictive measures to urgently suspend the broadcasting activities of such media outlets in the Union, or directed at the Union&lt;/strong&gt;. These measures should be maintained until the aggression against Ukraine is put to an end, &lt;strong&gt;and until&lt;/strong&gt; the Russian Federation, and its associated media outlets, cease to conduct propaganda actions against the Union and its Member States.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From my understanding, “and until” would mean the sanctions end once (1) the war is over, (2) Ukraine wins, and (3) &lt;em&gt;Russia ceases to conduct propaganda actions against the EU&lt;/em&gt;. From what I can see, the law does not describe “propaganda actions” any further.&lt;/p&gt;
+&lt;p&gt;The actual text of the amendment is quite short, so I will paste it in its entirety below:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;article-1&#34;&gt;Article 1&lt;/h2&gt;
+&lt;p&gt;Regulation (EU) No 833/2014 is amended as follows:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;&lt;p&gt;the following Article is inserted after Article 2e:&lt;/p&gt;
+&lt;p&gt;‘Article 2f&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;&lt;p&gt;It shall be prohibited for operators to broadcast or to enable, facilitate or otherwise contribute to broadcast, any content by the legal persons, entities or bodies listed in Annex XV, including through transmission or distribution by any means such as cable, satellite, IP-TV, internet service providers, internet video-sharing platforms or applications, whether new or pre-installed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Any broadcasting licence or authorisation, transmission and distribution arrangement with the legal persons, entities or bodies listed in Annex XV shall be suspended.’;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Article 11(1), point (a), is replaced by the following:&lt;/p&gt;
+&lt;p&gt;‘(a) legal persons, entities or bodies listed in Annex III, IV, V, VI, XII, XIII, XIV or XV, or referred to in point (b) or (c) of Article 5(1), in point (b) or (c) of Article 5(2), in point (c) or (d) of Article 5(3), in point (b) or (c) of Article 5(4), in point (a), (b) or (c) of Article 5a, or in Article 5h;’;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Article 12 is replaced by the following:&lt;/p&gt;
+&lt;p&gt;‘Article 12&lt;/p&gt;
+&lt;p&gt;It shall be prohibited to participate, knowingly and intentionally, in activities the object or effect of which is to circumvent prohibitions in this Regulation including by acting as a substitute for natural or legal persons, entities or bodies referred to in Article 2e(3) or Article 2f, 5, 5a, 5b, 5e, 5f or 5h, or by acting to their benefit by using the exceptions in Article 2e(4), 5(6), 5a(2), 5a(5), 5b(2), 5b(3), 5e(2) or 5f(2).’;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;the text appearing in the Annex to this Regulation is added as Annex XV to Regulation (EU) No 833/2014.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;article-2&#34;&gt;Article 2&lt;/h2&gt;
+&lt;p&gt;This Regulation shall enter into force on the date of its publication in the Official Journal of the European Union.&lt;/p&gt;
+&lt;p&gt;This Regulation shall be binding in its entirety and directly applicable in all Member States.&lt;/p&gt;
+&lt;p&gt;Done at Brussels, 1 March 2022.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In plain English:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Article 2f bans “operators” from “broadcasting” or “contributing to broadcast” content by “entities listed in Annex XV” - basically RT and Sputnik News.&lt;/li&gt;
+&lt;li&gt;Article 2f explicitly bans “internet service providers, internet video-sharing platforms or applications” from doing the same. (This is an order for ISPs to block RT.)&lt;/li&gt;
+&lt;li&gt;Article 12 makes it prohibited to “circumvent prohibitions in this Regulation”, e.g. get around the ban.&lt;/li&gt;
+&lt;li&gt;The phrase “knowingly and intentionally” applies to “participat[ion] in activities,” not to “circumvent[ing] prohibitions”.&lt;/li&gt;
+&lt;li&gt;The ban isn’t just for intentionally unblocking RT, but &lt;em&gt;participating&lt;/em&gt; in any activity, &lt;em&gt;the effect of which&lt;/em&gt; is to unblock RT.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;My problem here isn’t mainly with the cable news networks, but that the EU appears to have made it illegal to participate in the Tor project in any way. For example&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;is it legal to run a node?&lt;/li&gt;
+&lt;li&gt;is it legal to contriibute code?&lt;/li&gt;
+&lt;li&gt;is it legal to sell hosting services/transit to people who host nodes?&lt;/li&gt;
+&lt;li&gt;is it legal to peer with ISPs that host nodes?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This also appears to apply to VPNs - either apply EU censorship regulations on your end, or the EU will block you.&lt;/p&gt;
+&lt;p&gt;I sincerely pray that I am wrong, that I am proven as a clickbaiter and as a hoaxster, and that the EU has already provided for this outcome, and that the phrase “internet service provider” means something other than what I think, or that “broadcast” only applies to TV, or something along those lines.&lt;/p&gt;
+&lt;p&gt;If I am made to “take the L,” I shall update this post.&lt;/p&gt;
+&lt;h2 id=&#34;update&#34;&gt;Update&lt;/h2&gt;
+&lt;p&gt;The Body of European Regulators for Electronic Communications have &lt;a href=&#34;https://berec.europa.eu/eng/news_and_publications/whats_new/9340-berec-supports-isps-in-implementing-the-eu-sanctions-to-block-rt-and-sputnik&#34;&gt;confirmed&lt;/a&gt; that the sanctions also cover ISPs:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It is BEREC’s understanding that the obligations to block RT and Sputnik are to be read in a broad manner and that all websites belonging to the entities mentioned in the Annex XV of the Regulation are covered &lt;strong&gt;including the provision of access to them by ISPs.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can’t see anything on whether this covers VPN providers.&lt;/p&gt;
+&lt;p&gt;I also had the following strange exchange with the ACM, the telecommunications regulator in the Netherlands:&lt;/p&gt;
+&lt;p&gt;ACM:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear —,&lt;/p&gt;
+&lt;p&gt;As for now, the ACM is the competent regulator regarding the Open Internet Regulation, not on the Council Regulation that you refer to. The ACM is not tasked with the implementation of the implementation of the Council Regulation you refer to.&lt;/p&gt;
+&lt;p&gt;Kind regards,&lt;/p&gt;
+&lt;p&gt;—&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Me:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dear —,&lt;/p&gt;
+&lt;p&gt;I thank you for your prompt reply.&lt;/p&gt;
+&lt;p&gt;In that case, would you happen to know who is the competent regulator regarding the implementation of Council Regulation (EU) 2022/350 in the Netherlands? The ACM is the only Dutch member of the BEREC as far as I can see - is there another agency which takes the lead for this? Or is there simply no regulator tasked with the implementation of this Council Regulation in the Netherlands?&lt;/p&gt;
+&lt;p&gt;Thanks again,&lt;br /&gt;
+—&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ACM:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Or is there simply no regulator tasked with the implementation of this Council Regulation in the Netherlands?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To my current knowledge, this is indeed the current situation.&lt;/p&gt;
+&lt;p&gt;Best regards,&lt;/p&gt;
+&lt;p&gt;—&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It appears that we have, then, a regulation without regulators. Is that how it usually works?&lt;/p&gt;
+&lt;p&gt;Strangely enough, Anco Scholte ter Horst, managing director of the Dutch ISP Freedom Internet, said in &lt;a href=&#34;https://www.volkskrant.nl/nieuws-achtergrond/als-we-het-normaal-gaan-vinden-dat-de-eu-media-kunnen-blokkeren-kan-dat-grote-gevolgen-hebben~bf3a9c94/&#34;&gt;an interview with de Volkskrant&lt;/a&gt; (in Dutch):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The Public Prosecution Service has also indicated that they are going to enforce the law, so we have to carry out the blockade. Otherwise they can impose penalty payments, prosecute members of the board or even close down the company.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;You are now considering legal action to have the blockage reversed. Why would this decision be unlawful?&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;First of all, the regulation is unclear and open to multiple interpretations. In the Netherlands it is interpreted in such a way that we also have to block websites, but not in other member states. So this needs to be clarified.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;So it does seem like someone is tasked with doing something, just not the ACM.&lt;/p&gt;
+&lt;p&gt;Usually, I try not to talk about politics too much on this blog. However, I will say that I &lt;em&gt;fully endorse&lt;/em&gt; anyone who goes out there and starts reporting VPN companies to the authorities. If you allow them to implement these laws as long as they decline to enforce them, you will eventually end up with a large corpus of draconian laws that can spring into existence at a moment’s notice.&lt;/p&gt;
+&lt;p&gt;Or as Alinsky put it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Make the enemy live up to its own book of rules.&lt;/strong&gt; If the rule is that every letter gets a reply, send 30,000 letters. You can kill them with this because no one can possibly obey all of their own rules. (This is a serious rule. The besieged entity’s very credibility and reputation is at stake, because if activists catch it lying or not living up to its commitments, they can continue to chip away at the damage.)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For anyone else interested in this, you should probably also watch the &lt;a href=&#34;https://berec.europa.eu/eng/events/berec_events_2022_/291-public-debriefing-on-the-outcomes-of-the-50th-berec-ordinary-meetings&#34;&gt;Public debriefing on the outcomes of the 50th BEREC ordinary meetings&lt;/a&gt; on March 16, 2022. It will be live-streamed and members of the peanut gallery will be allowed to ask questions.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>No, Ethereum Name Service is still a clown show</title>
+      <link>https://yanmaani.github.io/no-ethereum-name-service-is-still-a-clown-show/</link>
+      <pubDate>Wed, 26 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://yanmaani.github.io/no-ethereum-name-service-is-still-a-clown-show/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Note: This post is about the technical design of ENS, i.e. how it’s supposed to work in theory. I do not cover the numerous implementation issues, i.e. how it actually works in practice. That would be an entire other post, but those issues are (at least theoretically) fixable.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer: I am involved with a competing project. Since I am not in the business of shilling cryptocurrencies, I am not going to name it, though it’s not exactly a secret. I was not paid anything to write this article, I just like laughing at clowns on the Internet.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-ens&#34;&gt;What is ENS?&lt;/h2&gt;
+&lt;p&gt;ENS (the “Ethereum Name Service”) is a blockchain-based naming service. It markets itself&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; as a censorship-resistant and decentralized naming system.&lt;/p&gt;
+&lt;p&gt;Prior to November 10, 2021, this was a direct lie. While promoters continually represented it as being such, in actuality, the entire contract was controlled by a 4-of-7 multisig, who had total power&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; to seize any domain (including for trademark reasons, or because they received a &lt;a href=&#34;https://twitter.com/brokep/status/1389314362561777665&#34;&gt;forged court order&lt;/a&gt;), and which publically announced&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; their intention to do so if it came to it.&lt;/p&gt;
+&lt;p&gt;Quote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PAUL WOUTERS [IETF]: Sure. Paul Wouters, IETF. So I have a question. Let’s say IETF gets the domain IETF in this naming system and we pay our fees for a couple of years. Everybody uses the site. And then at some point, we forget to pay and the domain falls back into the pool and then somebody else registers it and we don’t know where they are or who they are. Now I go to a court system. I get some legal opinion saying I own this trademark and now I want to get this domain back. Is there any way for me to get this domain back?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;LEONARD TAN [ENS developer]: So right now, the ENS industry, you can change it because it requires four out of seven people. Most of them are Ethereum developers. And it is a consensus for several of them to make any changes. So it is possible, but it is going to be a very difficult thing to do but it is possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;On November 10, ENS changed its “governance structure” to a DAO (“Decentralized Autonomous Organization”). The underlying intent was presumably to solve these problems.&lt;/p&gt;
+&lt;p&gt;This naturally raises the question: are the problems solved? Is ENS now (1) decentralized and (2) censorship-resistant?&lt;/p&gt;
+&lt;p&gt;TL;DR: (1) depends on your definition, and (2) not by any stretch of the word.&lt;/p&gt;
+&lt;h2 id=&#34;two-ways-to-skin-a-cat&#34;&gt;Two ways to skin a cat&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://bitcoin.org/bitcoin.pdf&#34;&gt;Bitcoin whitepaper&lt;/a&gt; never directly mentions (de)centralization. It does, however, mention “trusted third parties” a great deal. The closest we come to a definition is this: (emphasis added)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I’ve developed a new open source P2P e-cash system called Bitcoin. &lt;strong&gt;It’s completely decentralized, with no central server or trusted parties, because everything is based on crypto proof instead of trust.&lt;/strong&gt; Give it a try, or take a look at the screenshots and design paper: Download Bitcoin v0.1 at &lt;a href=&#34;http://www.bitcoin.org&#34; class=&#34;uri&#34;&gt;http://www.bitcoin.org&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;…&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Privacy could always be overridden by the admin based on his judgment call weighing the principle of privacy against other concerns, or at the behest of his superiors. Then strong encryption became available to the masses, and trust was no longer required. &lt;strong&gt;Data could be secured in a way that was physically impossible for others to access, no matter for what reason, no matter how good the excuse, no matter what.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;— Satoshi Nakamoto, &lt;a href=&#34;https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source&#34;&gt;Bitcoin open source implementation of P2P currency&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’ll call this, in want of a better term, “anarchic decentralization”. The power is moved from a &lt;em&gt;monarch&lt;/em&gt;, a single point of failure, but it’s moved &lt;em&gt;to&lt;/em&gt; nowhere. For example, who owns Bitcoin? Nobody! People may own &lt;em&gt;bitcoins&lt;/em&gt;, but even if you had all 21 million of them, it’s not like you could show up at the annual general meeting and demand changes.&lt;/p&gt;
+&lt;p&gt;Bitcoin is not really a currency with certain rules, but rather a set of rules with a currency attached to it.&lt;/p&gt;
+&lt;p&gt;In the words of &lt;a href=&#34;https://en.wikipedia.org/wiki/Carl_Schmitt&#34;&gt;Carl Schmitt&lt;/a&gt;, &lt;em&gt;sovereign is he who decides on the exception&lt;/em&gt;. But in Bitcoin, there is no trusted third party. There is no decision to be made, and there is never any exception to or reprieve from the rules.&lt;/p&gt;
+&lt;p&gt;The reason that this is possible is that the rules can be enforced 100% mechanistically. Because a computer can enforce them, no human is needed to. Because no human is needed in the loop, there is no need for a governance procedure, or any of these other squishy institutions - only cold, hard code. &lt;em&gt;Bitcoin is not decentral as much as it is acentral.&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/odysseus_sirens.jpg&#34; title=&#34;Ulysses and the Sirens by Herbert James Draper&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;Because Odysseus knew, ex-ante, that he wouldn’t make very good decisions here, he decided to divest himself of decision-making authority, and to place it instead in a simple and logical set of rules. &lt;a href=&#34;https://en.wikipedia.org/wiki/Ulysses_and_the_Sirens_(Draper)&#34;&gt;Source&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The other type is, shall we call it, oligarchic decentralization. Here, decentralization simply means that there is no &lt;em&gt;single&lt;/em&gt; point of failure. This is a much weaker property. Here, we are not concerned with &lt;em&gt;eliminating&lt;/em&gt; trusted third parties, but rather in ensuring there’s many of them across which to spread out the trust. A lot of things are “decentralized” in this weaker sense:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/Society_for_Worldwide_Interbank_Financial_Telecommunication&#34;&gt;SWIFT&lt;/a&gt; system - made up by more than 11,000 financial institutions&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://en.wikipedia.org/wiki/European_Union&#34;&gt;European Union&lt;/a&gt; - made up of 27 countries&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/JPMorgan_Chase&#34;&gt;JPMorgan Chase&lt;/a&gt; - owned by what is surely millions of shareholders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;which-one-is-ens&#34;&gt;Which one is ENS?&lt;/h2&gt;
+&lt;p&gt;ENS &lt;em&gt;is&lt;/em&gt; decentralized in the sense that multiple people - by all accounts, at least a few hundred - own it. This is a step up from seven keyholders! Congratulations!&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/ens_allocation.png&#34; title=&#34;Community Treasury: 50%; Core Contributors: 18.96%; Airdrop: 25%&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;The treasury can’t vote, and I can’t think the 137k airdropees (unless they sold it, or delegated their votes) will be that bothered to vote. (The 1% minimum quorum seems like a good indication my hunch is correct here.) The implications of this are left as an exercise to the reader. &lt;a href=&#34;https://ensdomains.substack.com/p/ens-token-allocation-claiming-opens&#34;&gt;Source&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;ENS &lt;em&gt;is not&lt;/em&gt; decentralized in the sense that there is binding, non-human, trustless enforcement of what &lt;em&gt;you&lt;/em&gt; may consider to be desiderata, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;not seizing people’s names&lt;/li&gt;
+&lt;li&gt;not jacking up fees on the people’s names once they’ve invested into them (e.g. in terms of infrastructure)&lt;/li&gt;
+&lt;li&gt;ensuring that insiders don’t get to register names for free (since the fees go back to them)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I can actually prove this. I took these examples &lt;em&gt;directly&lt;/em&gt; from the “&lt;a href=&#34;https://docs.ens.domains/v/governance/ens-dao-constitution&#34;&gt;ENS DAO Constitution&lt;/a&gt;,” which is a “set of binding rules that determine what governance actions are legitimate for the DAO to take”.&lt;/p&gt;
+&lt;p&gt;Note here that, when they use words like “binding” and “legitimate,” they do not mean it in the technical sense. Nothing actually &lt;em&gt;prevents&lt;/em&gt; a proposal from doing any of those things - that’s why they have their constitution. (If it weren’t technically possible to do something, why would they need to write a rule against it?) Indeed, as long as a proposal gains more than 50% of the votes with a 1% quorum, it can execute abitrary code on behalf of the DAO - even such code that will give anyone dictatorial control over it in perpetuity.&lt;/p&gt;
+&lt;h2 id=&#34;is-it-censorship-resistant-then&#34;&gt;Is it censorship-resistant, then?&lt;/h2&gt;
+&lt;p&gt;ENS &lt;em&gt;is&lt;/em&gt; censorship-resistant in the sense that nobody can directly seize your domain.&lt;/p&gt;
+&lt;p&gt;ENS &lt;em&gt;is not&lt;/em&gt; censorship-resistant in the sense that renewal costs are guaranteed to be stable or even consistent. If the people who own the DAO want to, they could crank up the fee for renewing &lt;em&gt;only your&lt;/em&gt; name to $1,000,000,000, and then allocate it to whomever they please once it expires.&lt;/p&gt;
+&lt;p&gt;In other words, if your ownership of a name is prejudicial to the financial interests of the people who own the DAO, you might get a first-hand tour in what property rights &lt;em&gt;actually&lt;/em&gt; mean. I’ll assume that they’d vote to clean out child porn&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; - to do otherwise would surely result in disastrous headlines, and presumably cause for the token to drop in price. Likewise for “hate speech”. In the end, you’ll never know until you try it! Maybe it’s safe, maybe it isn’t! Hate to find out!&lt;/p&gt;
+&lt;p&gt;To put it even more bluntly: You “own” your domain, but you do not &lt;em&gt;own your ownership&lt;/em&gt; of that domain. Your property rights exist only within the ENS system, and that system is in turn owned by what, in practice, forms a trusted third party. That system is the &lt;em&gt;real&lt;/em&gt; owner of the domain; you merely lease it from them at a price that they are free to set.&lt;/p&gt;
+&lt;p&gt;It’s also worth noting that when I use the term “owners,” I’m being a bit loose. Actually, anyone (even you, dear reader!) can borrow some ENS and vote with it, for example using a flash loan contract or some more sophisticated system. This would probably allow you to obtain the votes you need for a quorum at little to no cost - if I understand correctly, you could borrow 0.4% of the outstanding supply right now off Uniswap for not more than the cost of the transaction. And if you have some more money, nothing prevents you from simply bribing people to vote for your proposal, except their own self-interest, which can be solved by yet more bribes.&lt;/p&gt;
+&lt;p&gt;It seems, then, that the strongest motivators any ENS holder would have to not expropriate your domain are:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;fear of real-world consequences (lawsuit, murder)&lt;/li&gt;
+&lt;li&gt;concern that the price of the token will drop&lt;/li&gt;
+&lt;li&gt;altruistic/ideological motivations (pride, honor)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It’s worth noting in this context that (2) is limited by two factors:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;You can always hedge the risk that your token will fall in price on DeFi markets. For example, if you have 100 ENS and want to vote “YES” on a disastrous proposal, you can always just sell 100 ENSUSD futures and be totally indifferent toward the price. Heck, you could sell 200 ENSUSD futures and have an incentive to cause the price to go down, while keeping your right to vote. (Modern joint-stock corporations have bylaws that prohibit you from voting on a company that you’re shorting. This is not possible in crypto, for obvious reasons.)&lt;/li&gt;
+&lt;li&gt;If the bribe is big enough, the risk that the price will crash is not really important.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In other words, the ultimate guarantors of the supposedly “trustless” system are the real-world legal system, as well as people’s good faith, honesty, and reputation.&lt;/p&gt;
+&lt;p&gt;If you consider this to be censorship-resistant, then ENS is absolutely the token for you!&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://ens.domains&#34; class=&#34;uri&#34;&gt;https://ens.domains&lt;/a&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://mailarchive.ietf.org/arch/msg/dnsop/-9zBqWpvNBlekGotR211s1mf6tM/&#34; class=&#34;uri&#34;&gt;https://mailarchive.ietf.org/arch/msg/dnsop/-9zBqWpvNBlekGotR211s1mf6tM/&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/the-ethereum-name-service/why-ens-doesnt-create-more-tlds-responsible-citizenship-in-the-global-namespace-7e66658fe2b1&#34; class=&#34;uri&#34;&gt;https://medium.com/the-ethereum-name-service/why-ens-doesnt-create-more-tlds-responsible-citizenship-in-the-global-namespace-7e66658fe2b1&lt;/a&gt; - “Moving forward, we want to be as responsible as we can. This includes possibly seeking to register .ETH through the normal ICANN process” - note that the “normal ICANN process” for gTLD regitration requires compliance with &lt;a href=&#34;https://www.wipo.int/amc/en/domains/gtld/&#34;&gt;trademark law&lt;/a&gt;.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;I’m not saying they’d necessarily be &lt;em&gt;morally&lt;/em&gt; in the wrong here. Child abuse is well into &lt;a href=&#34;https://en.wikipedia.org/wiki/Hostis_humani_generis&#34;&gt;hostis humani generis&lt;/a&gt; territory, and I don’t think I’d act any different if I were given the choice. But that’s why I, unlike certain other people, am not in favour of giving to people this kind of power.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>A modest proposal to fix web search</title>
+      <link>https://yanmaani.github.io/a-modest-proposal-to-fix-web-search/</link>
+      <pubDate>Sun, 02 Jan 2022 23:00:00 +0000</pubDate>
+      
+      <guid>https://yanmaani.github.io/a-modest-proposal-to-fix-web-search/</guid>
+      <description>&lt;p&gt;The problem with search these days is that Google has begun to produce absolute garbage results.&lt;/p&gt;
+&lt;p&gt;To try it, just search for something simple like “css center element”. On a fresh session of Tor Browser, here’s my top 10 items on Google:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;(&lt;code&gt;https://www.w3schools.com&lt;/code&gt;) CSS Layout - Horizontal &amp;amp; Vertical Align - W3Schools&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://www.freecodecamp.org&lt;/code&gt;) How to Center Anything with CSS - Align a Div, Text, and More&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://www.w3.org&lt;/code&gt;) CSS: centering things - World Wide Web Consortium (W3C)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;People also ask&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://developer.mozilla.org&lt;/code&gt;) Center an element - CSS: Cascading Style Sheets - MDN Web …&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://stackoverflow.com&lt;/code&gt;) How to horizontally center an element - Stack Overflow&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://blog.hubspot.com&lt;/code&gt;) 11 Ways to Center Div or Text in Div in CSS - HubSpot Blog&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://css-tricks.com&lt;/code&gt;) Centering in CSS: A Complete Guide | CSS-Tricks&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://dev.to&lt;/code&gt;) 3 Ways to Center an Element in CSS - DEV Community&lt;/li&gt;
+&lt;li&gt;(&lt;code&gt;https://blog.logrocket.com&lt;/code&gt;) 13 ways to vertically center HTML elements with CSS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It gets even worse on harder queries. Bing/DDG is slightly better (MDN is first result and W3 second, but instant answer is unfortunately w3schools), but their image search is still crap. Yandex has great image search for some reason, but their (English?) text search is unimpressive. To see the real horror, try some really high CPC keywords on your phone, and see how the entire first page is just ads.&lt;/p&gt;
+&lt;p&gt;I presume the reason for this is because they realized they would make more money absolutely whoring out their search engine than trying to give people good results. At a certain point, you reach the end of the growth stage, and all that remains is extracting as much profit as you can from the decaying carcass of your once-great enterprise.&lt;/p&gt;
+&lt;p&gt;But the root cause of it all is these heavily SEO’d sites, right? It goes something like:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Make a shitty site with information (tutorialspoint, cyberciti, etc)&lt;/li&gt;
+&lt;li&gt;SEO it to hell&lt;/li&gt;
+&lt;li&gt;Site places above &lt;a href=&#34;https://tldr.sh&#34;&gt;tldr pages&lt;/a&gt;, &lt;a href=&#34;https://wiki.archlinux.org/&#34;&gt;Arch Wiki&lt;/a&gt;, etc&lt;/li&gt;
+&lt;li&gt;Earn ad revenue&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So if the root cause is the profit motive, why can’t you just filter out the sites with big profit?&lt;/p&gt;
+&lt;p&gt;If you load a site in headless Firefox, you can obviously measure how much ads it has. For example, load it once with and once without uBlock, and then compare e.g. loading times. There are also other things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GDPR popups&lt;/li&gt;
+&lt;li&gt;excessive JavaScript&lt;/li&gt;
+&lt;li&gt;presence of modal dialogs requesting email&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then, you could get a score of how plagued the site it is. Combine this with the ordinary search rankings from e.g. DDG, Bing, YaCy, or whatever, and Bob’s your uncle.&lt;/p&gt;
+&lt;p&gt;Heck, you don’t even have to make a new search engine. Just make a block list for uBlock that hides links to plagued sites.&lt;/p&gt;
+&lt;p&gt;I don’t see how this could fall prey to Goodhart’s law. It’s pretty hard to pretend like your site doesn’t run ads, right?&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Bitcoin will never be a stable currency</title>
+      <link>https://yanmaani.github.io/bitcoin-will-never-be-a-stable-currency/</link>
+      <pubDate>Sat, 11 Dec 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://yanmaani.github.io/bitcoin-will-never-be-a-stable-currency/</guid>
+      <description>&lt;p&gt;People are interested in Bitcoin for two reasons:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;It allows any two willing parties to transact directly with each other without the need for a trusted third party.&lt;/li&gt;
+&lt;li&gt;It is an inflation-free asset, &lt;em&gt;hard money&lt;/em&gt;, which is assured to preserve your purchasing power over time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I think that the first argument is basically sound, and the second one basically not. The psychological problem with Bitcoin being only a payment network, however, is that &lt;em&gt;Bitcoin qua payment network&lt;/em&gt; can be objectively measured and compared against other payment networks. And if it can be &lt;em&gt;weighed in the balances&lt;/em&gt;, it can be &lt;em&gt;found wanting&lt;/em&gt;.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/belshazzars_feast.jpg&#34; title=&#34;King Belshazzar sees a disembodied hand write the words &amp;quot;מנא מנא תקל ופרסין&amp;quot; on the wall. This interrupts his meal.&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;Numbered, numbered, weighed, divided.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;For this reason, is it psychologically necessary for its most hardcore promoters to find a &lt;em&gt;sui generis&lt;/em&gt; rationale for why Bitcoin is unique. Enter, &lt;em&gt;store of value&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;bitcoin-is-not-currently-a-stable-currency&#34;&gt;Bitcoin is not currently a stable currency&lt;/h2&gt;
+&lt;p&gt;Does Bitcoin &lt;em&gt;currently&lt;/em&gt; help us attain the political goal&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; of “sound money”? Is Bitcoin &lt;em&gt;currently&lt;/em&gt; a currency free of inflation?&lt;/p&gt;
+&lt;p&gt;De facto, no. Inflation is conventionally defined as prices going up - the same amount of money giving you less purchasing power. Bitcoin does not, evidently, hold a constant amount of purchasing power:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yanmaani.github.io/pp_btc.png&#34; title=&#34;Graph showing burchasing power of 1 BTC (fluctuating rapidly)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The United States dollar does not, strictly speaking, do this either:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yanmaani.github.io/pp_usd.png&#34; title=&#34;Graph showing burchasing power of 1 USD (sinking slowly)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;However, the tracking is clearly much more accurate. For the U.S. dollar - I actually calculated this - annual inflation has stayed between 2.30% and 3.08% between 2011 and 2020. For Bitcoin, during the same period, it has ranged between &lt;strong&gt;-98.26% and 312.24%&lt;/strong&gt;. This is not, by any definition, stable. If this were a third world country, you would be laughing at it. Thus, we can not honestly say that Bitcoin - to date - has accomplished the goal of being a stable store of value.&lt;/p&gt;
+&lt;p&gt;There’s two main objections to be made here:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;The goal is not to preserve purchasing power, but to have a currency with a constant money supply.&lt;/li&gt;
+&lt;li&gt;Bitcoin will become stable in the future.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first objection is plainly absurd. What do you need a currency with a stable money supply for? Is it needed to have a non-inflationary currency? If so, that’s your real goal, and keeping the money supply stable is merely a means to an end.&lt;/p&gt;
+&lt;p&gt;If not - if you don’t care about inflation, but are &lt;em&gt;deeply concerned&lt;/em&gt; about increases in the money supply, what’s the point? Is there an intrinsic value, detached from all other considerations, in having a currency whose money supply doesn’t budge? What’s going on here? If you know, please send me an e-mail immediately!&lt;/p&gt;
+&lt;p&gt;But the second objection is more interesting.&lt;/p&gt;
+&lt;h2 id=&#34;bitcoin-can-never-become-a-stable-currency&#34;&gt;Bitcoin can never become a stable currency&lt;/h2&gt;
+&lt;p&gt;People seem to have some notion of Bitcoin becoming stable with increased adoption. They theory is that, at some unspecified point in the future (with “adoption”), people will start pricing goods in Bitcoin. When that happens, Bitcoin will become a “unit of account,” volatility will plummet, and Bitcoin will suddenly be as stable as the dollar or the euro.&lt;/p&gt;
+&lt;p&gt;Their problem is that you can’t just build a runway and a control tower and wait for the planes to land. You actually have to understand the underlying reason for why the planes decided to land on your island and so on.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/cargo_cult.jpg&#34; title=&#34;A ceremonial flag raising performed by members of the John Frum cargo cult on Tanna island in Vanuatu.&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;…some folks are born, made to raise the flag? (image credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:John_Frum_flag_raising.jpg&#34;&gt;Charmaine Tham&lt;/a&gt;)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;some-theory&#34;&gt;Some theory&lt;/h3&gt;
+&lt;p&gt;What does it mean for something to be stable? Looking at it from a distance, it’s quite obvious: something is stable if it has a tendency to stay in on place. But let’s look at it up close. What causes this die to be stable? Why doesn’t it just fall over, or start moving to the side?&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/die.jpg&#34; title=&#34;A single, solitary, die.&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;I don’t think I’ve ever seen an inanimate object look so sad before in my life. (image credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Dice_(504524747).jpg&#34;&gt;Nazir Amin&lt;/a&gt;)&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The question is almost too stupid to even be able to consider it, right? If you tipped it over a little bit to the side, it would fall back down again. This is what’s called a stable equilibrium&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. And here’s a literal textbook example of a stable equilibrium:&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/stability.png&#34; title=&#34;A ball in a pit with sloped edges. If it&amp;#39;s perturbed to the side, it will fall back down.&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;image credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Stable_equilibrium.svg&#34;&gt;Urutseg&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;To plagiarize &lt;a href=&#34;https://en.wikipedia.org/wiki/Mechanical_equilibrium#Potential_energy_stability_test&#34;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A system is in mechanical equilibrium at the critical points of the function describing the system’s potential energy. We can locate these points using the fact that the derivative of the function is zero at these points.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The derivative of a function means the slope of that function. If the derivative of the potential energy (with respect to a change, like pushing the die) is zero, that means the die doesn’t want to go any &lt;em&gt;particular&lt;/em&gt; way if I don’t push it. If it’s also at a local maximum, it means things now are the best they can be, and so will want to go back to the way things were if I push it. &lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;some-practice&#34;&gt;Some practice&lt;/h3&gt;
+&lt;p&gt;We can trivially extend this to currencies: what would happen if the U.S. dollar crashed by 90% tomorrow, without any underlying change in the economy? Obviously, any goods priced in dollars would instantly become ten times cheaper, causing foreign consumers to buy more American goods&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;, causing an inflow of foreign currency into the American economy. This inflow would strengthen the dollar. It would stop approximately when the dollar reaches its natural exchange rate.&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In other words, there’s a negative feedback loop. If the price goes down through some exogenous shock, it will go back up again, and vice versa. We can look at this through the lens of the good old &lt;em&gt;supply and demand curve&lt;/em&gt;:&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/supply_demand.png&#34; title=&#34;Demand goes down as price goes up. Supply goes up as price goes up. The two intersect in a point marked &amp;quot;equilibrium&amp;quot;.&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;image credit: &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Supply-demand-equilibrium.svg&#34;&gt;SilverStar at English Wikipedia&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The dollar is &lt;strong&gt;both supply and demand elastic&lt;/strong&gt;. The demand for U.S. dollars varies by price as discussed above, but the supply (i.e. the interest rates) is also centrally planned in pursuit of &lt;em&gt;the dual mandate of price stability and maximum sustainable employment&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;does-bitcoin-have-an-elastic-supply&#34;&gt;Does Bitcoin have an elastic supply?&lt;/h3&gt;
+&lt;p&gt;Not in the primary market. The money supply is not affected by the current price. A higher price does not cause more Bitcoins to be mined. The money supply equals, regardless of anything else:&lt;/p&gt;
+&lt;p&gt;&lt;math display=&#34;block&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munderover&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;/munderover&gt;&lt;mn&gt;50&lt;/mn&gt;&lt;mo&gt;*&lt;/mo&gt;&lt;msup&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;mrow&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;⌊&lt;/mo&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mi&gt;/&lt;/mi&gt;&lt;mn&gt;210000&lt;/mn&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;⌋&lt;/mo&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\sum_{n=1} ^{H} 50*2^{\lfloor n/210000\rfloor}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/p&gt;
+&lt;p&gt;This converges to a finite value, the famous 21 million. Moreover, the current value depends only on the time (i.e. the block height, &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;), and nothing else.&lt;/p&gt;
+&lt;p&gt;There is also a second-hand market. If I hold Bitcoin, I may be willing to sell at some price, but not some other. If I’m trying to maximize my profits in fiat terms, I want to sell at the highest price I can get. That decision depends on the price, but also on my expectations of the future price. (If I’m trying to maximize my profits in Bitcoin terms, I may still want to buy and sell, if I believe it will decrease temporarily to rise later.)&lt;/p&gt;
+&lt;h3 id=&#34;does-bitcoin-have-an-elastic-demand&#34;&gt;Does Bitcoin have an elastic demand?&lt;/h3&gt;
+&lt;p&gt;No. Nobody has a price-related demand for Bitcoin: &lt;strong&gt;nobody buys 0.00170844 Bitcoin, they buy $100 worth of Bitcoin&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;If the price goes up, that doesn’t actually price anyone out from buying (as we are helpfully reminded, Bitcoin is divisible down to 10^8 &lt;em&gt;satoshi&lt;/em&gt;, so you can buy very small amounts indeed), and if it goes down, it doesn’t make a single person any more able to afford Bitcoin. Yes, it makes them able to buy &lt;em&gt;more Bitcoin&lt;/em&gt; for the same amount of dollars, and it makes a &lt;em&gt;specific amount&lt;/em&gt; of Bitcoin more affordable in dollar terms, but a lower price doesn’t make them buy more Bitcoin in value terms.&lt;/p&gt;
+&lt;p&gt;I should note that I’m not really making a psychological point here: even if everyone thought of it in terms of &lt;em&gt;buying Bitcoin&lt;/em&gt;, their demand would still not be price-sensitive, except inasmuch as they’re buying a constant amount of it in fiat terms, which is the point I’m making.&lt;/p&gt;
+&lt;p&gt;Furthermore, from what I can determine, people seem to buy Bitcoin on basis of what they think will happen to the price in the future, which they base on news reports and the like.&lt;/p&gt;
+&lt;p&gt;If this is true, it would suggest that the price of Bitcoin depends &lt;em&gt;only&lt;/em&gt; on the expectation of future price. This is basically the Matt Levine theory that &lt;a href=&#34;https://www.bloomberg.com/opinion/articles/2021-11-30/omicron-crypto-is-a-bet-on-attention&#34;&gt;crypto is a bet on attention&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anyway, note how this differs from gold:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;If gold drastically increases in price, previously unviable mines open again.&lt;/li&gt;
+&lt;li&gt;If gold drastically decreases in price, certain mines will immediately close.&lt;/li&gt;
+&lt;li&gt;If gold slightly increases in price, less jewelry and electronics will be produced using gold.&lt;/li&gt;
+&lt;li&gt;If gold slightly decreases in price, more jewelry and electronics will be produced using gold.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If Bitcoin would have goods priced in it, none of this would be a problem. Either if enough people started to do it - see below - or if the protocol&lt;a href=&#34;#fn6&#34; class=&#34;footnote-ref&#34; id=&#34;fnref6&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt; intrinsically had some way to burn bitcoins in exchange for, let’s say, increased block space. In that case, cheap bitcoins would mean cheap &lt;em&gt;whatever&lt;/em&gt;, which would (theoretically) stimulate capital inflows.&lt;/p&gt;
+&lt;p&gt;But it doesn’t, so it is. With an entirely fixed supply and a totally price-insensiive demand, Bitcoin is at best &lt;em&gt;astable&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-would-bitcoin-look-like-if-it-were-stable&#34;&gt;What would Bitcoin look like, if it were stable?&lt;/h2&gt;
+&lt;p&gt;It would have a supply and demand curve where the lines crossed at an angle. Since the supply will always be flat, the demand would have to decrease as price goes up.&lt;/p&gt;
+&lt;p&gt;This is where we come to the “goods being priced in Bitcoin” part. Pricing a good in Bitcoin can mean two things. To quote &lt;a href=&#34;https://www.fooledbyrandomness.com/BTC-QF.pdf&#34;&gt;Nassim N. Taleb&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There is a conflation between “accepting bitcoin for payments” and pricing goods in bitcoin. To “price” in bitcoin, bitcoin the price must be fixed, with a conversion into fiat floating, rather than the reverse.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There’s two ways to skin a cat. You can either sell something for, let’s say, $100, and then convert that into 0.00170844 bitcoins for your website. Or you can sell something for 0.00100000 bitcoins.&lt;/p&gt;
+&lt;p&gt;In both cases, I’m &lt;em&gt;pricing goods in Bitcoin&lt;/em&gt;. But only one of these contributes to the stability of Bitcoin.&lt;/p&gt;
+&lt;p&gt;If you’re automatically converting prices, then you’re just using Bitcoin as a payment processor. As Bitcoin goes up or down, the sales of your product will not change, because the price will change accordingly. But if your prices are fixed in Bitcoin, you will add it some stability. If Bitcoin is cheap, getting $100 worth of goods for $50 is a steal, so your sales will go up (and money will flow into Bitcoin). If Bitcoin is expensive, getting $100 worth of goods for $200 is an awful deal, so your sales will dry up (and less money will flow into Bitcoin).&lt;/p&gt;
+&lt;p&gt;If you do this, you are acting as a buyer of last resort. It is worth noting that this is how the United Kingdom lost £3.3 billion on &lt;a href=&#34;https://en.wikipedia.org/wiki/Black_Wednesday&#34;&gt;Black Wednesday&lt;/a&gt;. If you’re spending money to prop up the market, unless you’re richer than the market, you will eventually run out of money before they do.&lt;a href=&#34;#fn7&#34; class=&#34;footnote-ref&#34; id=&#34;fnref7&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt; In economics, this is known as the Impossible Trinity, which states that it is impossible to have all three of the following at the same time:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;fixed foreign exchange rates&lt;/li&gt;
+&lt;li&gt;independent monetary policy&lt;/li&gt;
+&lt;li&gt;free movement of capital&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The explanation is as follows:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Without fixed foreign exchange rates, we can alter our exchange rates to conform to the world market&lt;/li&gt;
+&lt;li&gt;Without independent monetary policy, we can alter our interest rates to concorm to the world market&lt;/li&gt;
+&lt;li&gt;Without free capital flows, we can uphold a discrepancy between the two&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In practice, I think Bitcoin is much worse than even third world currencies here. They’ll have some centralized authority making some effort to uphold the currency. But since Bitcoin is &lt;em&gt;trustless&lt;/em&gt;, there is no such authority.&lt;a href=&#34;#fn8&#34; class=&#34;footnote-ref&#34; id=&#34;fnref8&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Even aside that, there is the other problem: there’s almost nobody who holds Bitcoin for mundane reasons&lt;a href=&#34;#fn9&#34; class=&#34;footnote-ref&#34; id=&#34;fnref9&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&lt;/a&gt; in the same way that companies hold checking accounts of U.S. dollars. This would mean precisely all the investment activity, which governs the price, is based on confidence, or expectations of future price.&lt;/p&gt;
+&lt;p&gt;If that’s true, it suggests Bitcoin is not just astable, but even unstable: if the price goes down, it will go down even more, because of the panic&lt;a href=&#34;#fn10&#34; class=&#34;footnote-ref&#34; id=&#34;fnref10&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;10&lt;/sup&gt;&lt;/a&gt;, but if the price goes up, it will go up even more, because of the mania. As Kevin Kallaugher for the Baltimore Sun puts it:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yanmaani.github.io/kal_buy_sell.jpg&#34; title=&#34;A stylized stock market hype cycle&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mi&gt;″&lt;/mi&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;y&amp;#39;&amp;#39; &amp;lt; 0&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;I am not implying that such a thing is universally considered to be desirable, but merely that it is a goal held by some.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;Well, if you tipped it over more than 45° it would fall down the other way. Exactly at 45°, you have what’s called an unstable equilibrium.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;If it’s at a local minimum, it means literally anything is better and so it’s unstable. If it’s neither, it means it doesn’t care as to which.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;This is also why states want to manipulate their currency to be weak.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;Which would, ceteris paribus, be whatever it used to be.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn6&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;This is not intended as an endorsement of any other cryptocurrencies which may have such a monetary policy.&lt;a href=&#34;#fnref6&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn7&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;For this reason, the theory that big banks’ market making desks will voluntarily do this also strikes me as somewhat unlikely. Why would a bank stand willing to buy Bitcoin at some arbitrary price point but not at some other in the absence of an arbitrage condition? First of all, they don’t like to lose money, secondly, they’re all long volatility.&lt;a href=&#34;#fnref7&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn8&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;Other than Tether, maybe.&lt;a href=&#34;#fnref8&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn9&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;No, Michael Saylor of MicroStrategy fame is everything but mundane.&lt;a href=&#34;#fnref9&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn10&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;The recent event&lt;a href=&#34;https://www.coindesk.com/markets/2021/12/04/bitcoin-drops-9k-in-an-hour/&#34;&gt;(1)&lt;/a&gt; &lt;a href=&#34;https://davidgerard.co.uk/blockchain/2021/12/04/news-square-goes-block-wikipedia-nft-el-salvador-bitcoin-city-plans-where-the-chinese-mining-rigs-went/&#34;&gt;(2)&lt;/a&gt; on December 4 when a market sell of 1,500 BTC caused 4,000 BTC worth of liquidations, in turn causing a broader loss of confidence in the currency, may be illustrative.&lt;a href=&#34;#fnref10&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Proof of stake is a scam and the people promoting it are scammers</title>
+      <link>https://yanmaani.github.io/proof-of-stake-is-a-scam-and-the-people-promoting-it-are-scammers/</link>
+      <pubDate>Tue, 09 Nov 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://yanmaani.github.io/proof-of-stake-is-a-scam-and-the-people-promoting-it-are-scammers/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This article has been &lt;a href=&#34;https://www.21ideas.org/theory-protocol-pos-is-a-scam/&#34;&gt;translated into Russian&lt;/a&gt; by the 21ideas/21идея project.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Proof of stake is a scam. When I say that, I mean that proof of stake is (1) claimed to be a consensus system, and (2) constitutionally incapable of actually producing a consensus.&lt;/p&gt;
+&lt;p&gt;To understand why this is the case, we must first study how proof of work works, to be able to see why proof of stake is not an adequate drop-in replacement for it.&lt;/p&gt;
+&lt;h2 id=&#34;how-proof-of-work-works&#34;&gt;How Proof of Work works&lt;/h2&gt;
+&lt;p&gt;Way back in the day, before Bitcoin was created, you had a lot of people trying to create “digital cash”.&lt;/p&gt;
+&lt;p&gt;They had identified - correctly - that digital signatures were a part of what was needed, but that only got them so far as to reducing the Digital Cash Problem to the Double-Spending Problem. For data can be copied endlessly, and a signature is not guaranteed to be the only one made with that key.&lt;/p&gt;
+&lt;p&gt;In 2008, Satoshi Nakamoto came along. He proposed solving the problem by introducing a new component known as “proof of work,” lifted from &lt;a href=&#34;http://www.hashcash.org/papers/hashcash.pdf&#34;&gt;an obscure e-mail spam filtering technique&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The idea is to have a method to burn electricity in a provable way. The electricity used does not directly produce anything of value, except for a proof that (approximately) this amount of electricity was consumed by this or that node.&lt;/p&gt;
+&lt;p&gt;The specific method is as follows:&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;All nodes can generate lottery tickets.&lt;/li&gt;
+&lt;li&gt;These lottery tickets are cryptographically tied to their decisions on which transactions they approve.&lt;/li&gt;
+&lt;li&gt;“Scratching” the lottery ticket requires a certain amount of processing power.&lt;/li&gt;
+&lt;li&gt;Because of the design of the algorithms used, there is no way to mathematically reveal the lottery ticket, except through scratching it.&lt;/li&gt;
+&lt;li&gt;The rarity of lottery tickets that are accepted is determined by the network.&lt;/li&gt;
+&lt;li&gt;If a node can present a lottery ticket of rarity one-in-a-million, the network can conclude the node did about a million lottery tickets’ worth of work, on average.&lt;/li&gt;
+&lt;li&gt;The network gives digital currency to nodes that present a winning lottery ticket.&lt;/li&gt;
+&lt;li&gt;Because the lottery tickets are tied to decisions on approving transactions, a node that approves bad transactions will not be able to collect its reward. (More technically, other nodes will not consider its “coinbase transaction” - the transaction in which the reward is paid out - to be a valid one, and so will not build any lottery tickets on top of it)&lt;/li&gt;
+&lt;li&gt;If a node does this, it will still have spent the real-world cost associated with scratching these tickets (“mining”), such as electricity, but without getting any reward to show for it.&lt;/li&gt;
+&lt;li&gt;To keep things stable, the network increases the scarcity of winning lottery tickets - the “difficulty” - if people are winning too much. For example: if there currently takes, on average, 10 billion lottery tickets for a single winner, and twenty winners are found in the time it should take to find ten, the difficulty will be increased up to one in twenty billion. (The network tries to target a rate of one winner per ten minutes - if the production is too high, the difficulty goes up, and if the production is too low, the difficulty goes down)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;However, this is not the whole story. Proof of work is a vital part of the machine, but it is not the machine. For that, we have to go deeper.&lt;/p&gt;
+&lt;h2 id=&#34;the-origins-of-digital-currency&#34;&gt;The origins of digital currency&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;—Satoshi Nakamoto, &lt;a href=&#34;https://bitcoin.org/bitcoin.pdf&#34;&gt;bitcoin.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you have a file on a computer, despite what NFT promoters believe, it is not possible to prevent people from copying it. If that file is your digital currency, this causes a problem. If people can effectively CTRL-C CTRL-V your currency, you do not meaningfully have a currency.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A first step to solving this problem was to do “sending” differently. Instead of directly sending a computer file, users would send digital currency to other people by signing it over with a digital signature. This was a huge step forward, but not all the way. The problem that remained was the dreaded double-spending problem.&lt;/p&gt;
+&lt;p&gt;Basically: if I have $1 worth of digital currency, nothing can prevent me from trying to send that same $1 to two people, thus turning $1 into $2. Unless they can both compare their incoming transactions to see they’re being had, there’s no way to solve this.&lt;/p&gt;
+&lt;p&gt;(For what it’s worth, there is a &lt;em&gt;partial&lt;/em&gt; solution in pure cryptography. Some digital signature schemes cause for the signing key to leak if you try to sign two different things with the same key. However, the method for reconstructing the key is by doing a mathematical calculation over the two signatures. For that to happen, the two signatures have to be collected in one place by one person.)&lt;/p&gt;
+&lt;p&gt;Before Bitcoin, people had been trying to solve this problem for decades. &lt;a href=&#34;https://en.wikipedia.org/wiki/DigiCash&#34;&gt;DigiCash&lt;/a&gt; was proposed by David Chaum in 1989, and it did solve the problem, but at a cost. All transactions would go through a server called the “mint” (albeit in an encrypted format), and this server would, since it would have a complete list of all transactions, be able to check for double spends.&lt;/p&gt;
+&lt;p&gt;In 2007, then, the state of the art was basically a choice: a centralized system without double-spending, or a decentralized system with. Since a currency system with double-spending is no currency system at all, this effectively meant that all digital currency systems had to be centralized.&lt;/p&gt;
+&lt;p&gt;Satoshi Nakamoto, the inventor of Bitcoin, had like four big ideas:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;If you require that all transactions have to go in a ledger, you can (by definition) ignore the transactions that are not in this ledger. This means that you only have to care about double-spending within this ledger.&lt;/li&gt;
+&lt;li&gt;If you have two conflicting transactions within a ledger, the correct choice is always to go with the one that was published first.&lt;/li&gt;
+&lt;li&gt;If you had what’s called a “timestamp server,” you could use this to figure out which transaction came first.&lt;/li&gt;
+&lt;li&gt;We can build such a timestamp server by relying on proof of work, as outlined above.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In more detail: using my node’s local clock, I can check that new blocks coming in (“lottery tickets,” in my analogy) state the time correctly. If I then have a series of blocks (a “block chain”), I can enforce - on threat of refusing to accept them, thus making their money worthless - that these timestamps be accurate, i.e. consistent to my (local) clock.&lt;/p&gt;
+&lt;p&gt;At this point, I really feel as if I must apologize to my reader for describing this fairly mundane process in such excruciating detail. But it truly is necessary. To understand why a nice mechanical watch is superior to a decent Chinese&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; copy, it isn’t enough to look at the marketing materials, the glossy brochures, and then finish by taking a cursory look at the case (“looks about the same, three hands and a dial”) and observing that it seems to keep time well enough. We have to actually open it up and see what’s inside.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/yazole.jpg&#34; title=&#34;A cheap &amp;quot;YAZOLE&amp;quot;-brand aviator-style watch&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;For $2, it’s probably decent value.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The key points to take away from this are:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;The entire purpose of the system is to keep time accurately. Time is very, very important here. This &lt;em&gt;cannot&lt;/em&gt; be stressed enough.&lt;/li&gt;
+&lt;li&gt;Proof of work is a vital part of the system, but it is not the system. There are other parts of it as well. And if you want to replace one part with another, it has to be basically the same part. Not only that, but it has to be machined to the same or better tolerances.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Is proof of stake basically the same part? Is proof of stake machined to the same tolerances?&lt;/p&gt;
+&lt;h2 id=&#34;how-proof-of-stake-works-in-theory&#34;&gt;How Proof of Stake works, in theory&lt;/h2&gt;
+&lt;p&gt;The basic idea of proof of stake is fairly simple:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Instead of buying mining equipment for $1000, nodes can lock up $1000 of cryptocurrency worth (“staking”)&lt;/li&gt;
+&lt;li&gt;Instead of indicating which blocks are valuable by mining on top of them, they can just vote for them on the network, and sign this with a digital signature&lt;/li&gt;
+&lt;li&gt;Instead of having the block that had the most&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; mining done on it win, the block that had the most votes will win&lt;/li&gt;
+&lt;li&gt;If nodes misbehave, instead of losing their rewards from the day’s work, they will literally lose their entire stake - as if their entire mining rig farm burned down in a proof of work system.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Promoters will then argue that, because these incentives are equal or superior to those of proof of work (this is true), it is also an equally strong or superior system to proof of work (this is a lie). Their problem is that it is not sufficient to write a wish list of incentives, because they also have to create the system that puts them in place.&lt;/p&gt;
+&lt;p&gt;To use an analogy, it is as if someone would sit down to design a building in the following way: first, they draw how they would like for the exterior to look. Then, they draw how they would like for the interior to look. They make basic measurements, to confirm that the interior does not exceed the exterior in terms of dimensions. They then suggest that the house is plausible, and send it off to the construction workers to build.&lt;/p&gt;
+&lt;p&gt;Of course, they are missing the most important part: the structural system of beams and load-bearing walls that ensures the building continues being a building! Our heroes have to lay out, in practice, how their system would work, and this is where the fun starts.&lt;/p&gt;
+&lt;h2 id=&#34;the-nothing-at-stake-problem&#34;&gt;The Nothing at Stake problem&lt;/h2&gt;
+&lt;p&gt;In PoW, nodes that misbehave are punished. The system that causes them to be punished is this: they have spent electricity. If they do not get their money back in cryptocurrency, they make a loss. Only if the system makes the active decision to reward them will they recoup their sunk cost.&lt;/p&gt;
+&lt;p&gt;In this way, the punishment for misbehaviour - having to pay for electricity without a reward - is assured. Because of the laws of physics, turning energy into heat increases entropy, and the arrow of time is irreversible. Once it happened, it’s a done deal. &lt;strong&gt;A node cannot un-mine a block and get their electricity back.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Proof of stake does not intrinsically have the same system. Just as the double-spending problem, anyone with a digital key can sign anything they want with no repercussions. They therefore have to build a similar, synthetic, incentive structure.&lt;/p&gt;
+&lt;p&gt;Here’s where the problem starts: because their punishment is synthetic, it exists inside of the system. Because the punishment exists inside of the system, it can only impinge on that which the system has control over - in this case, the nodes’ security deposits. Therefore, once they have withdrawn their deposits, they are untouchable. This is the “nothing at stake” problem. There will inevitably come a point when a node is free to liquidate their entire stake and cash out. At that point, the network has a problem:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;That key is valid to sign any number of versions of, let’s say, block #200, and there is no objective, system-internal standard for which version is legitimate, other than “the one that was published first”.&lt;/li&gt;
+&lt;li&gt;The node can sign whatever it wants with that key with no consequences. There is no way to punish it, because it has &lt;em&gt;nothing at stake&lt;/em&gt;.&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Virtually all systems attempt to solve this problem in the same way:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;If a node signs another version of the same block within a reasonably short time period, “slash” their deposits (e.g. punish them inside of the system)&lt;/li&gt;
+&lt;li&gt;If a node signs another version of the same block, like, a year later, just ignore it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here’s your problem: &lt;em&gt;how do you know which version was first?&lt;/em&gt; If you were there from the start and saw it first hand, it’s easy. But what if you just installed it, and your node is trying to sync? What happens if you’re presented with two identical blocks, and have to decide which one to pick?&lt;/p&gt;
+&lt;p&gt;The entire point of the consensus mechanism was to allow us to tell which transaction was first, without personally having seen it take place. That’s why you solve the decentralized timestamp problem - so you can solve the transaction ordering problem, so you can solve the double-spending problem.&lt;/p&gt;
+&lt;p&gt;In this case, it seems as if our alleged consensus mechanism suffers from a double-signing problem. Fortunately, it solves this problem by solving the decentralized block timestamp problem, so it can solve the block ordering problem.&lt;/p&gt;
+&lt;p&gt;Hahaha, just kidding. It doesn’t actually do that last part. You’ll need &lt;a href=&#34;https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/&#34;&gt;some other method&lt;/a&gt; to figure that out:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Because of all the arguments above, we can safely conclude that this threat of an attacker building up a fork from arbitrarily long range is unfortunately fundamental, and in all non-degenerate implementations the issue is fatal to a proof of stake algorithm’s success in the proof of work security model. However, we can get around this fundamental barrier with a slight, but nevertheless fundamental, change in the security model.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;—Vitalik Buterin, saying the quiet part out loud&lt;/p&gt;
+&lt;p&gt;In other words: &lt;em&gt;if measured under the same threat model as proof of work, proof of stake is fundamentally (and fatally!) insecure&lt;/em&gt;. This is admitted, even by its chief boosters. Only if we &lt;del&gt;downgrade to a weaker&lt;/del&gt; make a “slight, but nevertheless fundamental change” to the security model can it be called “secure”.&lt;/p&gt;
+&lt;h2 id=&#34;some-questions&#34;&gt;Some questions&lt;/h2&gt;
+&lt;p&gt;If there is a fundamental security flaw in a scheme, that can only be “alleviated” by lowering the standards it is measured against, is that scheme “secure”?&lt;/p&gt;
+&lt;p&gt;If advocates of this supposedly secure scheme know about this, but neglect to tell anyone - in public, that is, not in obscure blog posts - are they committing fraud, malpractice, or merely lying by omission?&lt;/p&gt;
+&lt;p&gt;If supposedly credible people were aware of this fraud, but neglected to tell those who placed their faith in them about it, how should that reflect on their credibility, and the credibility of those who, in turn, endorsed them?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But if the watchman see the sword come, and blow not the trumpet, and the people be not warned; if the sword come, and take any person from among them, he is taken away in his iniquity; but his blood will I require at the watchman’s hand.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-man-behind-the-curtain&#34;&gt;The man behind the curtain&lt;/h2&gt;
+&lt;p&gt;What can we conclude from this?&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Since proof of stake can not alone reach a consensus, it is not a consensus mechanism.&lt;/li&gt;
+&lt;li&gt;If it still has a working system, there has to be a real consensus mechanism (e.g. not proof of stake) behind it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Indeed, I’m not making this up:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This security assumption, the idea of “getting a block hash from a friend”, may seem unrigorous to many; Bitcoin developers often make the point that if the solution to long-range attacks is some alternative deciding mechanism X, then the security of the blockchain ultimately depends on X, and so the algorithm is in reality no more secure than using X directly - implying that most X, including our social-consensus-driven approach, are insecure.&lt;/p&gt;
+&lt;p&gt;However, this logic ignores why consensus algorithms exist in the first place. … Weak subjectivity is exactly the correct solution.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;—Vitalik Buterin, not denying the claim he’s attempting to refute&lt;/p&gt;
+&lt;p&gt;There are, to my knowledge, three such &lt;em&gt;mechanisms X&lt;/em&gt; proposed for the &lt;em&gt;actual consensus&lt;/em&gt;:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Local consensus. This means that every node has their own view of what’s going on. This is, indeed, very decentralized. Unfortunately, it lacks the property of consensus, since every node has their own idea of what’s going on. Case study: &lt;a href=&#34;https://blog.bitmex.com/bitcoin-cash-abcs-rolling-10-block-checkpoints/&#34;&gt;Bitcoin Cash ABC&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Proof of authority. In plain English, this means that you have a trusted authority that signs the blocks. It’s a very effective method to get a consensus, and one which doesn’t even pretend to be decentralized. Case study: Peercoin.&lt;/li&gt;
+&lt;li&gt;“Phone-a-friend consensus”. A mythical animal that’s very vaguely specified, but surely both decentralized and an effective consensus mechanism.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Obviously, nobody wants either of the first two - decentralized consensus is the name of the game, but getting either in isolation is incredibly easy. So let’s study this “phone-a-friend consensus” - hereinafter PFC - in more detail. More specifically, what do we do when it breaks?&lt;/p&gt;
+&lt;p&gt;In PoW, we needn’t worry about “the network” being wrong about anything. As long as we’re decently connected, and verifying everything, we know we’re on the right track. We are assured that everyone else will eventually fall in line. Since they’re running the same software, how could they not?&lt;/p&gt;
+&lt;p&gt;In PFC, however, we adopt a postmodern view of truth. What happens if I saw with my own eyes that block 200A was first, but “the network” thinks block 200B was first? Do I go on reddit and try to convince them? What if they won’t listen? What if the platforms of discourse are censored?&lt;/p&gt;
+&lt;p&gt;More importantly - what happens if “the community” believes one thing, but the big guys with the money believe another? Now, in theory, both of these attacks seem extremely far-fetched, but what about the real world? Two data points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In 2017, Bitcoin had a contentious and infected debate about what to do with the 1 MB block size limit. During this debate, advocates of the “big block” side found themselves &lt;a href=&#34;https://medium.com/@johnblocke/a-brief-and-incomplete-history-of-censorship-in-r-bitcoin-c85a290fe43&#34;&gt;banned from /r/bitcoin&lt;/a&gt;. In the end, the “small block” side won.&lt;a href=&#34;#fn6&#34; class=&#34;footnote-ref&#34; id=&#34;fnref6&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt; Did the bans play a part in this?&lt;/li&gt;
+&lt;li&gt;In Ethereum, after the &lt;a href=&#34;https://davidgerard.co.uk/blockchain/the-dao/&#34;&gt;The DAO debacle&lt;/a&gt;, the Ethereum foundation decided to do a hardfork to bail the investors out. In the end, Ethereum prevailed and Ethereum Classic (the non-hardfork coin) became consigned to irrelevancy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It seems, then, that in a “community-based consensus”, there’s about four relevant actors. &lt;em&gt;The same thing clearly cannot act or be acted upon in the same part or in relation to the same thing at the same time, in contrary ways; and &lt;strong&gt;therefore whenever this contradiction occurs in things apparently the same, we know that they are really not the same, but different.&lt;/strong&gt;&lt;/em&gt; (emphasis added). They are:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;The big guys with money and power.&lt;/li&gt;
+&lt;li&gt;The people who own the discussion platforms.&lt;/li&gt;
+&lt;li&gt;The broad masses of people.&lt;/li&gt;
+&lt;li&gt;You.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now, what happens if either of these actors disagree with the other? Let’s study it:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Against any of these other groups of people, your opinion is not realistically going to matter.&lt;/li&gt;
+&lt;li&gt;If the broad masses of people disagree with the platform landlord, their opinion will be altered to conform with the rules, or else they will no longer have a voice.&lt;/li&gt;
+&lt;li&gt;If the people who actually run the project disagree with the people running their platform, that platform will lose the vaunted “endorsement” status.&lt;/li&gt;
+&lt;li&gt;If the people running the project disagree with the community, the community has the choice of forking off - losing all of the institutional capital and whatever else, like in Ethereum - or getting back in line.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In practice, then, “community consensus” is just an obfuscated and convoluted version of “proof of authority”. And as Mr. Buterin knows from first-hand experience, “the security of the blockchain ultimately depends on X”.&lt;/p&gt;
+&lt;h2 id=&#34;if-it-doesnt-work-then-how-come-it-works&#34;&gt;If it doesn’t work, then how come it works?&lt;/h2&gt;
+&lt;p&gt;We’ve already established that a system that works the way the promoters suggest it does is literally impossible. A system, then, that actually works, must sacrifice one of three things - either it isn’t proof-of-stake (e.g. concealed proof of work), it isn’t decentralized, or it doesn’t have a consensus.&lt;/p&gt;
+&lt;p&gt;In practice, however, there often isn’t a bright line between these things. If the same people own all the tokens, control all of the staking pools, the project governance, and run all the full nodes, an attack isn’t even possible. It’s so centralized, it produces the impression of decentralization from a distance.&lt;/p&gt;
+&lt;p&gt;Think of it the CAP theorem: In the presence of a partition, you have to make the choice between consistency and availability, but in the absence of one, you get both and don’t even have to choose. If all of the people with the technical means of doing an attack are the owners’ cronies, the ship keeps on floating. Or as &lt;a href=&#34;https://davidgerard.co.uk/blockchain/2018/05/13/ethereum-casper-only-has-to-work-well-enough-worse-is-better-in-action/&#34;&gt;David Gerard puts it&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The market doesn’t care about the Bitcoin ideology behind decentralisation. … The market treats centrally administered ICO tokens, and centrally-controlled cryptocurrencies like Ripple (XRP), as the same class of object as Bitcoins or ether. The market wants what it wants, not what ideologues want it to want. …&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As long as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the network remains secure enough to function at all&lt;/li&gt;
+&lt;li&gt;the price of ether doesn’t crash&lt;/li&gt;
+&lt;li&gt;the ICO tokens keep pumping and dumping&lt;/li&gt;
+&lt;li&gt;the latest &lt;a href=&#34;https://davidgerard.co.uk/blockchain/2018/04/21/news-14000-cryptokitties-to-kill-ethereum-history-of-earn-coms-pitato-ransomware-cryptographers-on-cryptocurrency/&#34;&gt;CryptoKitties&lt;/a&gt; doesn’t clog it too badly&lt;/li&gt;
+&lt;li&gt;and it doesn’t have any disasters that are more expensive than the ones the current system has, like The DAO or the &lt;a href=&#34;https://davidgerard.co.uk/blockchain/2017/11/08/the-ethereum-parity-wallet-disaster-play-by-play/&#34;&gt;Parity wallet disaster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;— then Casper will be a &lt;em&gt;good enough&lt;/em&gt; proof-of-stake that the community can live with it.&lt;/p&gt;
+&lt;p&gt;Casper doesn’t have to work well enough for the ideologues — it just has to work well enough for the market.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;the-paper-moderated-ink-cooled-reactor&#34;&gt;The paper-moderated, ink-cooled reactor&lt;/h2&gt;
+&lt;p&gt;It’s not hard to see why people are taken in by this. Proof of work promises them, in principle, a bad&lt;a href=&#34;#fn7&#34; class=&#34;footnote-ref&#34; id=&#34;fnref7&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt; system that produces a certain result, through methods that are plainly inscrutable to an average reader. Proof of stake promises them a good system, which produces the same result, through methods that are about equally inscrutable.&lt;/p&gt;
+&lt;p&gt;The people promoting this are either unaware of the security properties of the technology they’re promoting, in which case they are clowns (whose endorsements of technology you cannot trust), or they are aware (but neglecting to tell you), in which case they are scammers (whose endorsements of technology you &lt;em&gt;definitely&lt;/em&gt; cannot trust).&lt;/p&gt;
+&lt;p&gt;In either case, the fact that an individual promotes proof of stake, or takes seriously those who do, ought to be enough to disqualify them from being considered authorities on any matter ever again. The fact that this is not done, and overt scammers are enthusiastically rehabilitated, is a damning indictment of the alleged “cryptocurrency community”.&lt;/p&gt;
+&lt;h2 id=&#34;is-there-any-replacement-for-proof-of-work&#34;&gt;Is there any replacement for proof of work?&lt;/h2&gt;
+&lt;p&gt;I don’t know if we will ever replace proof of work. Probably, in ten years they might have something. To fit the security model of Bitcoin, it must have the following desiderata:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Costly - mining a block must create a sunk cost roughly equivalent to the block reward&lt;/li&gt;
+&lt;li&gt;Irreversible - these costs must arise in the real-world, from processes that are not cheaply reversible in the short term&lt;/li&gt;
+&lt;li&gt;Self-certifying - it must be possible to validate solely within computer software, without reference to anything else&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;PoW has all three, but at some cost.&lt;/p&gt;
+&lt;p&gt;PoS has one of these, barely - it fails on the other two (irreversibility and being self-certifying)&lt;/p&gt;
+&lt;p&gt;Proof of space seems like it could work, but only if the date stored is useless, thus &lt;a href=&#34;https://blog.dshr.org/2021/07/alternatives-to-proof-of-work.html&#34;&gt;moving&lt;/a&gt; the &lt;a href=&#34;https://davidgerard.co.uk/blockchain/2021/05/22/news-everybody-hates-chia-defi100-rugpull-china-versus-mining-china-versus-crypto/&#34;&gt;waste&lt;/a&gt;&lt;a href=&#34;#fn8&#34; class=&#34;footnote-ref&#34; id=&#34;fnref8&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&lt;/a&gt; from electricity to electronics. I’m not endorsing Chia’s specific implementation here, though.&lt;/p&gt;
+&lt;p&gt;Perhaps there is a small glimmer of hope in combining proof of work and proof of stake. That way, you could replace some of the mining with staking. I don’t really know, but that’s my hunch. I do know one thing, though: when it comes to promises about the future made by cryptocurrency promoters, don’t believe it until you see it.&lt;/p&gt;
+&lt;p&gt;What makes people buy into their cryptocurrency isn’t actual technological advances that have already happened, it’s promises of what’s yet to come. In fact, their best incentive is to perpetually keep the moon on the horizon, so as to helpfully inform the would-be bagholders they’re getting in on the ground floor.&lt;/p&gt;
+&lt;p&gt;Cynical people will observe that this is also how most cryptocurrency projects actually operate - not only is it more profitable, it’s also cheaper. They’re not strictly lying when they say you’re getting in on the ground floor, only when they imply that there will ever be a second one built.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;This is, believe it or not, a simplification.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;I’m not trying to make some type of hardcore anti-inflation argument here. All I’m saying is that you can’t have a currency based on taking whatever paper you happen to have on you and writing the largest number you can come up with.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;There’s nothing wrong with Chinese horology, there’s many quality Chinese watch brands, and many of the “Western” brands have production there too. I am not suggesting that all East Asian products are low quality, just that (virtually) all low quality products are made in East Asia. (The objection could be made that all products of any kind are made in East Asia.)&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;Probabilistically, that is.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;Sometimes, people redefine “nothing at stake” to refer to something else, and call this the long-range attack instead.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn6&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;I’m not endorsing either side in this conflict here, all I’m saying is that platforms have power.&lt;a href=&#34;#fnref6&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn7&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;In terms of wasting energy, for example. As a consensus system, it’s excellent.&lt;a href=&#34;#fnref7&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn8&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;That’s not to say wasting $100 of hard drive isn’t slightly preferable to wasting $100 of electricity, though.&lt;a href=&#34;#fnref8&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Perfect forward secrecy in PGP with time-based ratcheting</title>
+      <link>https://yanmaani.github.io/perfect-forward-secrecy-in-pgp-with-time-based-ratcheting/</link>
+      <pubDate>Fri, 05 Nov 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://yanmaani.github.io/perfect-forward-secrecy-in-pgp-with-time-based-ratcheting/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Standard disclaimer: This is probably a bad idea in some way, and I am almost certainly not the first one to come up with it. However, I do not have any kind of training in cryptography, and so I would not know how or by whom.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Update 2021-11-09: &lt;a href=&#34;https://github.com/stealth/opmsg&#34;&gt;opmsg&lt;/a&gt; seems like it does some of what I want with the deniable signatures, and does stateful ratcheting in a semi-interesting way. I haven’t looked into it much, but at least it clearly disproves my point that nobody is trying to innovate.&lt;/p&gt;
+&lt;p&gt;PGP is an encryption software from the 1990s. Like many other things from that time period, it has &lt;a href=&#34;https://latacora.micro.blog/2019/07/16/the-pgp-problem.html&#34;&gt;various problems&lt;/a&gt; and serious cryptography people &lt;a href=&#34;https://blog.filippo.io/giving-up-on-long-term-pgp/&#34;&gt;do not like&lt;/a&gt; it. However, they &lt;a href=&#34;https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html&#34;&gt;do not like anything that has anything to do with e-mail&lt;/a&gt;, and so they are not going to invent anything better:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Encrypting email is asking for a calamity. Recommending email encryption to at-risk users is malpractice. Anyone who tells you it’s secure to communicate over PGP-encrypted email is putting their weird preferences ahead of your safety.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The logical result of this situation is that we are stuck with a terrible piece of software that nobody actually likes, because it is ugly, but that nobody wants to replace, because the replacement would also be ugly.&lt;/p&gt;
+&lt;p&gt;The root cause of the problem is that PGP is &lt;em&gt;stateless&lt;/em&gt;. To encrypt a message to someone, I need only their public key. To sign them, I need only my private key. This is opposed to something like &lt;a href=&#34;https://signal.org/docs/specifications/doubleratchet/&#34;&gt;Signal&lt;/a&gt;, where I need a smart external third-party server and lots of state, or &lt;a href=&#34;https://otr.cypherpunks.ca/otr-wpes.pdf&#34;&gt;OTR&lt;/a&gt;, where I have to be on-line at the same time as my conversation partner and exchange keys with them and stuff.&lt;/p&gt;
+&lt;p&gt;The pros of this approach? In PGP, I can just touch and go, no need for handshakes.&lt;br /&gt;
+The cons of this approach? In PGP, I can just touch and go, no need for handshakes.&lt;/p&gt;
+&lt;p&gt;Astute observers will notice this as a textbook example of the so-called “New Jersey style,” also known as “&lt;a href=&#34;https://dreamsongs.com/RiseOfWorseIsBetter.html&#34;&gt;Worse Is Better&lt;/a&gt;”: &lt;em&gt;it is often undesirable to go for the right thing first. It is better to get half of the right thing available so that it spreads like a virus. Once people are hooked on it, take the time to improve it to 90% of the right thing.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In PGP’s case, they neglected to do the second half, and this is where the fun starts.&lt;/p&gt;
+&lt;h2 id=&#34;perfect-forward-secrecy&#34;&gt;Perfect forward secrecy&lt;/h2&gt;
+&lt;p&gt;Let’s picture the simplest possible way to do e-mail encryption: each e-mail address has a public key associated to it. To send an e-mail to someone, you encrypt it with their public key. If you want to prove you sent it, you also sign it with your private key.&lt;/p&gt;
+&lt;p&gt;Since PGP does things in the simplest way imaginable&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, you are currently picturing PGP.&lt;/p&gt;
+&lt;p&gt;The downside of this system is that anyone who obtains their private key can decrypt the message, and anyone who has a copy of the message can see it’s signed.&lt;/p&gt;
+&lt;p&gt;Naively, this would maybe not seem like a terrible problem. We expect secret keys to remain secret. If they don’t, that is outside of the threat model. And surely the purpose of a signature is to verify who sent the message?&lt;/p&gt;
+&lt;p&gt;The devil is in the details: the secret keys are supposed to stay secret, but for how long? If someone is monitoring your e-mail and taking copies of all your (encrypted) messages, you’re deleting all your e-mails after two weeks, and your key is compromised, what happens?&lt;/p&gt;
+&lt;ol type=&#34;A&#34;&gt;
+&lt;li&gt;The messages of the last two weeks are compromised&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;All the messages I have sent with that key, ever, are compromised&lt;/li&gt;
+&lt;li&gt;None of the messages are compromised&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You guessed it. The answer is, of course, B.&lt;/p&gt;
+&lt;p&gt;This problem is further compounded by the lack of &lt;em&gt;deniability&lt;/em&gt;. When the e-mails inevitably leak, there will be a cryptographic record that links the sender to his e-mail.&lt;/p&gt;
+&lt;p&gt;So, the PGP developers foresaw this problem. And being ardent adherents of &lt;em&gt;simple and robust&lt;/em&gt; design philosophies (after all, it got them to where they are now), they applied the principle of “it is more important for the implementation to be simple than the interface”. If it causes problems when old keys are compromised, users will either have to make sure that never happens or rotate them every now and then. And so PGP was built with this assumption in mind, and users who fail to rotate their keys are &lt;em&gt;outside the threat model&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In practice, what happens is people forget to rotate their keys. Even when they don’t, they’ll still keep the old ones around “for good measure”. And whenever their key gets compromised, that’s that.&lt;/p&gt;
+&lt;p&gt;So how would a good encryption system work? One that follows the “MIT style”, and writes genuinely good software, that sacrifices simplicity for correctness? Let’s take a look at a hypothetical protocol&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; which actually would be secure:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Obtain your interlocutor’s public key.&lt;/li&gt;
+&lt;li&gt;Send them your public key.&lt;/li&gt;
+&lt;li&gt;Use their public key and your private key to generate a &lt;em&gt;shared secret&lt;/em&gt;. Because of the nature of &lt;a href=&#34;https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange&#34;&gt;the algorithm&lt;/a&gt; that is used, the shared secret will be the same whether generated with their private key and your public key, or with their public key and your private key (that’s why it’s shared and that’s why it’s secret).&lt;/li&gt;
+&lt;li&gt;Generate an “ephemeral” (temporary) key pair based on random data.&lt;/li&gt;
+&lt;li&gt;Sign its public key with a &lt;a href=&#34;https://en.wikipedia.org/wiki/Message_authentication_code&#34;&gt;message authentication code&lt;/a&gt;, using the shared secret you derived in step 3. Basically, calculate signature = SHA-256(ephemeral public key || shared secret)&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; and send ephemeral public key + signature over the wire.&lt;/li&gt;
+&lt;li&gt;Receive their signed ephemeral public key in the same way.&lt;/li&gt;
+&lt;li&gt;Generate a new shared secret using those two, and use this&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; to communicate using &lt;a href=&#34;https://en.wikipedia.org/wiki/Authenticated_encryption&#34;&gt;authenticated encryption&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Every now and then, generate a new ephemeral keypair and throw away the old one.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The magic happens in step four. Since our master keys - the keys from step 1-2 - are only ever used for signatures, they can be totally compromised after the fact, without loss of privacy. Even if he has them, all he can do is use them to sign ephemeral keys. But he can’t go back in time and actually make us use those keys. The keys that we used to actually encrypt the material have already been discarded. In this way, we have &lt;a href=&#34;https://en.wikipedia.org/wiki/Forward_secrecy&#34;&gt;forward secrecy&lt;/a&gt;: &lt;em&gt;session keys will not be compromised even if long-term secrets used in the session key exchange are compromised&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Now, if PGP users did rotate their keys every three months or whatever happens to be the latest guidance, they, too, would enjoy this. The problem is that nobody ever does. For one, that would require them to change their key, which would require them to redistribute it again, and key exchange is always the weak point.&lt;/p&gt;
+&lt;p&gt;There is also another interesting property here, &lt;a href=&#34;https://en.wikipedia.org/wiki/Deniable_authentication&#34;&gt;deniable (“repudiable”) authentication&lt;/a&gt;. During the conversation, all the messages are authenticated, and a third party can’t forge messages so they look like my interlocutor sent them. However, if my interlocutor is logging the conversation to leak it to the press afterwards, there’s no signatures there that actually binds me to the conversation.&lt;/p&gt;
+&lt;p&gt;How is this accomplished? Simple - messages are signed with the shared secret. During the conversation, I obviously know which messages I’m sending and which ones I amn’t. But for someone looking at the transcript afterwards, he only knows they were signed by one of the two.&lt;/p&gt;
+&lt;p&gt;Actually, it is possible to accomplish this in PGP too. First, use a separate key for signatures. Second, post its &lt;em&gt;private key&lt;/em&gt; online after you’re done. The problem is that nobody actually does this, because it would - if nothing else - require them to do key rotation.&lt;/p&gt;
+&lt;h2 id=&#34;the-proposal-deniable-signatures&#34;&gt;The proposal: deniable signatures&lt;/h2&gt;
+&lt;p&gt;If I’m sending something to someone and signing it with my key, I actually already have everything I need for a deniable signature. I’ll take their public key and my private key, compute a shared secret, and then use this to compute a MAC over the whole message. If a third party then gets ahold of this MAC, one of two things will be true:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;They do not have either private key, in which case they will not be able to verify anything.&lt;/li&gt;
+&lt;li&gt;They have at least one private key, in which case they can forge any signature they want.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Replacing old PGP signatures with this would actually be very easy. Since nobody checks them anyway, you could just replace them all tomorrow and nobody would notice. Whoever did want to verify signatures could just install a version of PGP with support for them. Because they’ve already bolted on so much crap, another half-baked encryption scheme would hardly even be noticed.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://yanmaani.github.io/1181.png&#34; title=&#34;If you want to be extra safe, check that there&amp;#39;s a big block of jumbled characters at the bottom.&#34; alt=&#34;&#34; /&gt;&lt;figcaption&gt;&lt;a href=&#34;https://xkcd.com/1181/&#34;&gt;Source&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Another advantage of these signatures is that they would be considerably shorter. HMAC-SHA256 produces “signatures” of 32 bytes. Here’s what that would look like when encoded in base64:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP SIGNATURE-----
+47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+-----END PGP SIGNATURE-----&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The downside of this is that it would require PGP users to standardize on a single public key format. Oh, the horrors!&lt;/p&gt;
+&lt;h2 id=&#34;the-proposal-forward-secrecy&#34;&gt;The proposal: forward secrecy&lt;/h2&gt;
+&lt;p&gt;Now, if you’re a &lt;em&gt;nice&lt;/em&gt; protocol, there’s a simple way you can get forward secrecy. &lt;a href=&#34;https://www.signal.org/blog/advanced-ratcheting/&#34;&gt;Ratcheting&lt;/a&gt;. Each message, you take your old key, you hash it, and now you have a new key. Because hashes are irreversible - you can’t turn the hamburger back into a cow - the compromise of the new key doesn’t lead to the compromise of the old key. That way, you have forward secrecy. (You do not have “backward secrecy”, because the old key still leads to the new key.)&lt;/p&gt;
+&lt;p&gt;This system basically resembles &lt;a href=&#34;https://en.wikipedia.org/wiki/HMAC-based_one-time_password&#34;&gt;HOTP&lt;/a&gt;. You have a common counter which is synchronized, and then the HMAC over our secret key and the counter is used to generate an authentication key. The problem with this is that it isn’t stateless. For PGP-like systems, we can’t really keep a synchronized counter like that. So what can we do?&lt;/p&gt;
+&lt;p&gt;Well, there’s one thing that we still have access to, without any advanced synchronization. &lt;strong&gt;Time.&lt;/strong&gt; That’s why everyone switched to the much simpler &lt;a href=&#34;https://en.wikipedia.org/wiki/Time-based_One-Time_Password&#34;&gt;TOTP&lt;/a&gt; protocol instead. Instead of using a counter, it just uses your clock. As long as your clock is somewhat accurate, you can agree on the same number as the device without needing to coordinate anything.&lt;/p&gt;
+&lt;p&gt;TOTP, however, doesn’t have forward secrecy. For that, we need to look at an even older protocol, &lt;a href=&#34;https://en.wikipedia.org/wiki/S/KEY&#34;&gt;S/KEY&lt;/a&gt;. Here’s how S/KEY works:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Take your password, &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;W&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;.&lt;/li&gt;
+&lt;li&gt;Let &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H^n(W)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; denote a hash chain &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;n&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; times, e.g. &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H^3(W) = H(H(H(W)))&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; - “hash W thrice”.&lt;/li&gt;
+&lt;li&gt;Keep a synchronized counter between the server and the client. Initiate it at, say, &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;1000&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;n = 1000&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;.&lt;/li&gt;
+&lt;li&gt;Store on the server &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;P = H^n(W)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;.&lt;/li&gt;
+&lt;li&gt;To log in the first time, calculate &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;999&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;p = H^999(W)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; and send this to the server. The server checks that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H(p) = P&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;, i.e. that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;999&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;1000&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H(H^999(W)) = H^1000(W)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;. If so, the login was successful, both parties decrement W by 1, and the server replaces &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;P&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; with the succesful &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;p&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;. Note that the server doesn’t actually know what &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;p&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; is supposed to be in advance.&lt;/li&gt;
+&lt;li&gt;The next time, the client has to calculate &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;998&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;p = H^998(W)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; instead. Note that, even though no encryption is used, an attacker can’t glean any useful information from monitoring the connection - after it’s been used to log in once, &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msup&gt;&lt;mi&gt;H&lt;/mi&gt;&lt;mn&gt;999&lt;/mn&gt;&lt;/msup&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;W&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;H^999(W)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; no longer grants you any access.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;My&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; idea, then, is that we basically do this for keys, but using the time instead of a synchronized counter. All we need is a hash function&lt;a href=&#34;#fn6&#34; class=&#34;footnote-ref&#34; id=&#34;fnref6&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt; that works on keys. Ideally, it would have these properties (k is a private key and K is its corresponding public key):&lt;/p&gt;
+&lt;ol start=&#34;0&#34; type=&#34;1&#34;&gt;
+&lt;li&gt;There exists &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;N(k)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; such that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;N(k) = K&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; (e.g. &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;N&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;G&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;N(k) = kG = K&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; for ECC), but no &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_x(K)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; such that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_x(K) = k&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;.&lt;/li&gt;
+&lt;li&gt;There exists &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_1(k)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; such that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_1(k_i) = f_1(k_{i+1})&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/li&gt;
+&lt;li&gt;There exists &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_2(K)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; such that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_2(K_i) = f_2(K_{i+1})&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/li&gt;
+&lt;li&gt;There &lt;strong&gt;does not&lt;/strong&gt; exist &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_3(k)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; such that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_3(k_i) = f_3(k_{i-1})&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/li&gt;
+&lt;li&gt;There &lt;strong&gt;does not&lt;/strong&gt; exist &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_4(K)&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt; such that &lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;4&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_4(K_i) = f_4(K_{i-1})&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/li&gt;
+&lt;li&gt;&lt;math display=&#34;inline&#34; xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;prefix&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo stretchy=&#34;false&#34; form=&#34;postfix&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;K&lt;/mi&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;f_0(f_1(k_i)) = f_2(K_i) = K_{i+1}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Unfortunately, I can’t find any protocols that both have properties 2 and 5.&lt;a href=&#34;#fn7&#34; class=&#34;footnote-ref&#34; id=&#34;fnref7&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt; If you know one, please contact me! However, if we accept that third parties won’t be able to derive our public keys, we can steal a protocol used by Bitcoin. &lt;a href=&#34;#fn8&#34; class=&#34;footnote-ref&#34; id=&#34;fnref8&#34; role=&#34;doc-noteref&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;That protocol is &lt;a href=&#34;https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#Child_key_derivation_CKD_functions&#34;&gt;BIP32&lt;/a&gt;, and it tells us exactly how to do this. The specific protocol we are going to be ripping off is “hardened child key derivation”. Since I am not at all competent or licensed in this, I am just going to use it without attempting to improve or optimize it in any way.&lt;/p&gt;
+&lt;p&gt;With this knowledge in hand, we can use a private key to generate a new private key. After a certain interval, we will delete the old one. This enables us to do automatic key rotation/ratcheting, without having to keep anything synchronized with anyone.&lt;/p&gt;
+&lt;h2 id=&#34;could-this-be-integrated-into-pgp&#34;&gt;Could this be integrated into PGP?&lt;/h2&gt;
+&lt;p&gt;Theoretically, yes. You’d just do “normal” key rotation and upload the chain of signatures to a PGP server.&lt;/p&gt;
+&lt;h2 id=&#34;would-this-be-a-panacea&#34;&gt;Would this be a panacea?&lt;/h2&gt;
+&lt;p&gt;No, OTR is still better. If an old private key of ours is leaked today, that enabled an adversary to decrypt all conversations after that point. But in OTR, even if you have their key, you still have to carry out the actual MITM attack. To see why this is superior, study the following timeline:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;2020-01-01: Key is generated.&lt;/li&gt;
+&lt;li&gt;2020-06-01: Private key is stored in some backup, somewhere.&lt;/li&gt;
+&lt;li&gt;2021-06-01: Backup service hacked, private key revealed.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Under OTR, an &lt;em&gt;active&lt;/em&gt; adversary can decrypt all communications after &lt;em&gt;June 1, 2021&lt;/em&gt; - the moment they got the key. Under “slightly less shitty PGP”, a &lt;em&gt;passive&lt;/em&gt; adversary can decrypt all communications after &lt;em&gt;June 1, 2020&lt;/em&gt; - the age of the key that was leaked.&lt;/p&gt;
+&lt;p&gt;I am not sure what this property is called, but it seems pretty important! If you know, please leave a comment or send me an e-mail!&lt;/p&gt;
+&lt;p&gt;Since this protocol is still bad, nobody is going to make it. Mainly because it would be aesthetically unpleasing and nobody wants to work with aesthetically unpleasing software, but also because &lt;em&gt;modern software&lt;/em&gt; can’t ship with such security flaws. &lt;em&gt;Old software&lt;/em&gt;, like PGP, is grandfathered in, to the chagrin of expert cryptographers around the world. But only something with the rough security level, such that it is, of PGP, is simple enough to actually work for e-mail encryption.&lt;/p&gt;
+&lt;p&gt;We are thus stuck with a terrible piece of software that nobody actually likes, because it is ugly, but that nobody wants to replace, because the replacement would also be ugly.&lt;/p&gt;
+&lt;h2 id=&#34;addendum&#34;&gt;Addendum&lt;/h2&gt;
+&lt;p&gt;As a proof of concept, I wrote a &lt;a href=&#34;https://yanmaani.github.io/ratchet_secp256k1.py&#34;&gt;Python script&lt;/a&gt; to actually do this key ratcheting. While it’s a mostly faithful implementation of BIP32, it has a home-rolled replacement for the chain code functionality, because implementing that properly would require a new storage format.&lt;/p&gt;
+&lt;p&gt;If that were implemented, you should be able to leak old signing keys with impunity, because there is additional material being used in the deriveation. At some point, I imagine &lt;a href=&#34;https://www.gwern.net/Self-decrypting-files&#34;&gt;time-lock encryption&lt;/a&gt; will actually become viable. With that, you would be able to rig it up to automatically leak old signing keys.&lt;/p&gt;
+&lt;p&gt;This is released into the public domain, with even less warranty than the usual “NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE”. Seriously, you really should not use this for anything.&lt;/p&gt;
+&lt;p&gt;Usage:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ openssl ecparam -name secp256k1 -genkey -out sk.pem
+$ ./ratchet_secp256k1.py sk.pem &amp;lt;itercount&amp;gt;
+-----BEGIN EC PRIVATE KEY-----
+***
+-----END EC PRIVATE KEY-----&lt;/code&gt;&lt;/pre&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;Not simple in the way that you would want it, but simple in the way that they would want it. That is to say, it was a simple and elegant design at one point in the 1990s.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;I would have used OTR, but it’s &lt;a href=&#34;https://otr.cypherpunks.ca/Protocol-v2-3.1.0.html&#34;&gt;slightly more complicated&lt;/a&gt; - basically, you do step 1, then steps 4 and 6, then step 7, and then step 2-3, and then finally step 5, but in reverse - sign the shared secret from step 7 with the shared secret from step 3. In this way, you first set up an encrypted channel with ephemeral keys, and then verify the long-term keys.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;In a serious protocol, I think you would generate a new, random key, and then only use the shared secret once, to sign and and encrypt that key using authenticated encryption.&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;In practice, there’s some padding and stuff going on too, but we can disregard it in this example. Also, a MAC is not technically a signature.&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;This is a lie.&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn6&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;Technically, a one-way function.&lt;a href=&#34;#fnref6&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn7&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.cs.ucdavis.edu/~franklin/ecs228/2007/ijsn_survey_final.pdf&#34;&gt;This paper&lt;/a&gt; seems like it does what I want, at least from a quick glance.&lt;a href=&#34;#fnref7&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn8&#34; role=&#34;doc-endnote&#34;&gt;&lt;p&gt;It’s still better than PGP :^)&lt;a href=&#34;#fnref8&#34; class=&#34;footnote-back&#34; role=&#34;doc-backlink&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>

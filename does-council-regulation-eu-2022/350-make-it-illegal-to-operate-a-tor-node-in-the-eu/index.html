@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog.">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Does Council Regulation (EU) 2022/350 make it illegal to operate a Tor node in the EU?</title>
+</head>
+<body><header id="banner">
+    <h2><a href="/">yanmaani&#39;s blog</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Does Council Regulation (EU) 2022/350 make it illegal to operate a Tor node in the EU?</h1>
+            <div>
+                <time>March 2, 2022</time>
+                </div>
+    </header><p><em>Note: I am not a lawyer. I am writing this not because I have any special qualifications, but because I can’t find anything else about this on the Internet.</em></p>
+<p>Recently, it was announced that the EU is to “ban RT”. I heard you can’t get it on the TV these days, which seems reasonable enough. But I was pointed to the actual text of law, and it seems like it does a bit more than that.</p>
+<p>If you want to follow along, the regulation in question is <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R0350">“Council Regulation (EU) 2022/350 of 1 March 2022 amending Regulation (EU) No 833/2014 concerning restrictive measures in view of Russia’s actions destabilising the situation in Ukraine”</a>.</p>
+<p>(This seems like it was hastily written to alter a sanctions law from a few years ago, to just add “broadcasting” as a prohibited activity and “RT” as a prohibited entity. But when you’re dealing with information control, hack jobs are not ideal.)</p>
+<p>The purpose of the sanctions are pretty well explained in section 10 of the preamble: (emphasis added)</p>
+<blockquote>
+<p>In view of the gravity of the situation, and in response to Russia’s actions destabilising the situation in Ukraine, it is necessary, consistent with the fundamental rights and freedoms recognised in the Charter of Fundamental Rights, in particular with the right to freedom of expression and information as recognised in Article 11 thereof, to introduce further <strong>restrictive measures to urgently suspend the broadcasting activities of such media outlets in the Union, or directed at the Union</strong>. These measures should be maintained until the aggression against Ukraine is put to an end, <strong>and until</strong> the Russian Federation, and its associated media outlets, cease to conduct propaganda actions against the Union and its Member States.</p>
+</blockquote>
+<p>From my understanding, “and until” would mean the sanctions end once (1) the war is over, (2) Ukraine wins, and (3) <em>Russia ceases to conduct propaganda actions against the EU</em>. From what I can see, the law does not describe “propaganda actions” any further.</p>
+<p>The actual text of the amendment is quite short, so I will paste it in its entirety below:</p>
+<blockquote>
+<h2 id="article-1">Article 1</h2>
+<p>Regulation (EU) No 833/2014 is amended as follows:</p>
+<ol type="1">
+<li><p>the following Article is inserted after Article 2e:</p>
+<p>‘Article 2f</p>
+<ol type="1">
+<li><p>It shall be prohibited for operators to broadcast or to enable, facilitate or otherwise contribute to broadcast, any content by the legal persons, entities or bodies listed in Annex XV, including through transmission or distribution by any means such as cable, satellite, IP-TV, internet service providers, internet video-sharing platforms or applications, whether new or pre-installed.</p></li>
+<li><p>Any broadcasting licence or authorisation, transmission and distribution arrangement with the legal persons, entities or bodies listed in Annex XV shall be suspended.’;</p></li>
+</ol></li>
+<li><p>Article 11(1), point (a), is replaced by the following:</p>
+<p>‘(a) legal persons, entities or bodies listed in Annex III, IV, V, VI, XII, XIII, XIV or XV, or referred to in point (b) or (c) of Article 5(1), in point (b) or (c) of Article 5(2), in point (c) or (d) of Article 5(3), in point (b) or (c) of Article 5(4), in point (a), (b) or (c) of Article 5a, or in Article 5h;’;</p></li>
+<li><p>Article 12 is replaced by the following:</p>
+<p>‘Article 12</p>
+<p>It shall be prohibited to participate, knowingly and intentionally, in activities the object or effect of which is to circumvent prohibitions in this Regulation including by acting as a substitute for natural or legal persons, entities or bodies referred to in Article 2e(3) or Article 2f, 5, 5a, 5b, 5e, 5f or 5h, or by acting to their benefit by using the exceptions in Article 2e(4), 5(6), 5a(2), 5a(5), 5b(2), 5b(3), 5e(2) or 5f(2).’;</p></li>
+<li><p>the text appearing in the Annex to this Regulation is added as Annex XV to Regulation (EU) No 833/2014.</p></li>
+</ol>
+<h2 id="article-2">Article 2</h2>
+<p>This Regulation shall enter into force on the date of its publication in the Official Journal of the European Union.</p>
+<p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
+<p>Done at Brussels, 1 March 2022.</p>
+</blockquote>
+<p>In plain English:</p>
+<ol type="1">
+<li>Article 2f bans “operators” from “broadcasting” or “contributing to broadcast” content by “entities listed in Annex XV” - basically RT and Sputnik News.</li>
+<li>Article 2f explicitly bans “internet service providers, internet video-sharing platforms or applications” from doing the same. (This is an order for ISPs to block RT.)</li>
+<li>Article 12 makes it prohibited to “circumvent prohibitions in this Regulation”, e.g. get around the ban.</li>
+<li>The phrase “knowingly and intentionally” applies to “participat[ion] in activities,” not to “circumvent[ing] prohibitions”.</li>
+<li>The ban isn’t just for intentionally unblocking RT, but <em>participating</em> in any activity, <em>the effect of which</em> is to unblock RT.</li>
+</ol>
+<p>My problem here isn’t mainly with the cable news networks, but that the EU appears to have made it illegal to participate in the Tor project in any way. For example</p>
+<ul>
+<li>is it legal to run a node?</li>
+<li>is it legal to contriibute code?</li>
+<li>is it legal to sell hosting services/transit to people who host nodes?</li>
+<li>is it legal to peer with ISPs that host nodes?</li>
+</ul>
+<p>This also appears to apply to VPNs - either apply EU censorship regulations on your end, or the EU will block you.</p>
+<p>I sincerely pray that I am wrong, that I am proven as a clickbaiter and as a hoaxster, and that the EU has already provided for this outcome, and that the phrase “internet service provider” means something other than what I think, or that “broadcast” only applies to TV, or something along those lines.</p>
+<p>If I am made to “take the L,” I shall update this post.</p>
+<h2 id="update">Update</h2>
+<p>The Body of European Regulators for Electronic Communications have <a href="https://berec.europa.eu/eng/news_and_publications/whats_new/9340-berec-supports-isps-in-implementing-the-eu-sanctions-to-block-rt-and-sputnik">confirmed</a> that the sanctions also cover ISPs:</p>
+<blockquote>
+<p>It is BEREC’s understanding that the obligations to block RT and Sputnik are to be read in a broad manner and that all websites belonging to the entities mentioned in the Annex XV of the Regulation are covered <strong>including the provision of access to them by ISPs.</strong></p>
+</blockquote>
+<p>I can’t see anything on whether this covers VPN providers.</p>
+<p>I also had the following strange exchange with the ACM, the telecommunications regulator in the Netherlands:</p>
+<p>ACM:</p>
+<blockquote>
+<p>Dear —,</p>
+<p>As for now, the ACM is the competent regulator regarding the Open Internet Regulation, not on the Council Regulation that you refer to. The ACM is not tasked with the implementation of the implementation of the Council Regulation you refer to.</p>
+<p>Kind regards,</p>
+<p>—</p>
+</blockquote>
+<p>Me:</p>
+<blockquote>
+<p>Dear —,</p>
+<p>I thank you for your prompt reply.</p>
+<p>In that case, would you happen to know who is the competent regulator regarding the implementation of Council Regulation (EU) 2022/350 in the Netherlands? The ACM is the only Dutch member of the BEREC as far as I can see - is there another agency which takes the lead for this? Or is there simply no regulator tasked with the implementation of this Council Regulation in the Netherlands?</p>
+<p>Thanks again,<br />
+—</p>
+</blockquote>
+<p>ACM:</p>
+<blockquote>
+<blockquote>
+<p>Or is there simply no regulator tasked with the implementation of this Council Regulation in the Netherlands?</p>
+</blockquote>
+<p>To my current knowledge, this is indeed the current situation.</p>
+<p>Best regards,</p>
+<p>—</p>
+</blockquote>
+<p>It appears that we have, then, a regulation without regulators. Is that how it usually works?</p>
+<p>Strangely enough, Anco Scholte ter Horst, managing director of the Dutch ISP Freedom Internet, said in <a href="https://www.volkskrant.nl/nieuws-achtergrond/als-we-het-normaal-gaan-vinden-dat-de-eu-media-kunnen-blokkeren-kan-dat-grote-gevolgen-hebben~bf3a9c94/">an interview with de Volkskrant</a> (in Dutch):</p>
+<blockquote>
+<p>The Public Prosecution Service has also indicated that they are going to enforce the law, so we have to carry out the blockade. Otherwise they can impose penalty payments, prosecute members of the board or even close down the company.</p>
+</blockquote>
+<p>…</p>
+<blockquote>
+<p><strong>You are now considering legal action to have the blockage reversed. Why would this decision be unlawful?</strong></p>
+</blockquote>
+<blockquote>
+<p>First of all, the regulation is unclear and open to multiple interpretations. In the Netherlands it is interpreted in such a way that we also have to block websites, but not in other member states. So this needs to be clarified.</p>
+</blockquote>
+<p>So it does seem like someone is tasked with doing something, just not the ACM.</p>
+<p>Usually, I try not to talk about politics too much on this blog. However, I will say that I <em>fully endorse</em> anyone who goes out there and starts reporting VPN companies to the authorities. If you allow them to implement these laws as long as they decline to enforce them, you will eventually end up with a large corpus of draconian laws that can spring into existence at a moment’s notice.</p>
+<p>Or as Alinsky put it:</p>
+<blockquote>
+<p><strong>Make the enemy live up to its own book of rules.</strong> If the rule is that every letter gets a reply, send 30,000 letters. You can kill them with this because no one can possibly obey all of their own rules. (This is a serious rule. The besieged entity’s very credibility and reputation is at stake, because if activists catch it lying or not living up to its commitments, they can continue to chip away at the damage.)</p>
+</blockquote>
+<p>For anyone else interested in this, you should probably also watch the <a href="https://berec.europa.eu/eng/events/berec_events_2022_/291-public-debriefing-on-the-outcomes-of-the-50th-berec-ordinary-meetings">Public debriefing on the outcomes of the 50th BEREC ordinary meetings</a> on March 16, 2022. It will be live-streamed and members of the peanut gallery will be allowed to ask questions.</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>

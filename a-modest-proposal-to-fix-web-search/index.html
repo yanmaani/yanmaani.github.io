@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog.">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>A modest proposal to fix web search</title>
+</head>
+<body><header id="banner">
+    <h2><a href="/">yanmaani&#39;s blog</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>A modest proposal to fix web search</h1>
+            <div>
+                <time>January 2, 2022</time>
+                </div>
+    </header><p>The problem with search these days is that Google has begun to produce absolute garbage results.</p>
+<p>To try it, just search for something simple like “css center element”. On a fresh session of Tor Browser, here’s my top 10 items on Google:</p>
+<ol type="1">
+<li>(<code>https://www.w3schools.com</code>) CSS Layout - Horizontal &amp; Vertical Align - W3Schools</li>
+<li>(<code>https://www.freecodecamp.org</code>) How to Center Anything with CSS - Align a Div, Text, and More</li>
+<li>(<code>https://www.w3.org</code>) CSS: centering things - World Wide Web Consortium (W3C)</li>
+<li><em>People also ask</em></li>
+<li>(<code>https://developer.mozilla.org</code>) Center an element - CSS: Cascading Style Sheets - MDN Web …</li>
+<li>(<code>https://stackoverflow.com</code>) How to horizontally center an element - Stack Overflow</li>
+<li>(<code>https://blog.hubspot.com</code>) 11 Ways to Center Div or Text in Div in CSS - HubSpot Blog</li>
+<li>(<code>https://css-tricks.com</code>) Centering in CSS: A Complete Guide | CSS-Tricks</li>
+<li>(<code>https://dev.to</code>) 3 Ways to Center an Element in CSS - DEV Community</li>
+<li>(<code>https://blog.logrocket.com</code>) 13 ways to vertically center HTML elements with CSS</li>
+</ol>
+<p>It gets even worse on harder queries. Bing/DDG is slightly better (MDN is first result and W3 second, but instant answer is unfortunately w3schools), but their image search is still crap. Yandex has great image search for some reason, but their (English?) text search is unimpressive. To see the real horror, try some really high CPC keywords on your phone, and see how the entire first page is just ads.</p>
+<p>I presume the reason for this is because they realized they would make more money absolutely whoring out their search engine than trying to give people good results. At a certain point, you reach the end of the growth stage, and all that remains is extracting as much profit as you can from the decaying carcass of your once-great enterprise.</p>
+<p>But the root cause of it all is these heavily SEO’d sites, right? It goes something like:</p>
+<ol type="1">
+<li>Make a shitty site with information (tutorialspoint, cyberciti, etc)</li>
+<li>SEO it to hell</li>
+<li>Site places above <a href="https://tldr.sh">tldr pages</a>, <a href="https://wiki.archlinux.org/">Arch Wiki</a>, etc</li>
+<li>Earn ad revenue</li>
+</ol>
+<p>So if the root cause is the profit motive, why can’t you just filter out the sites with big profit?</p>
+<p>If you load a site in headless Firefox, you can obviously measure how much ads it has. For example, load it once with and once without uBlock, and then compare e.g. loading times. There are also other things:</p>
+<ul>
+<li>GDPR popups</li>
+<li>excessive JavaScript</li>
+<li>presence of modal dialogs requesting email</li>
+</ul>
+<p>Then, you could get a score of how plagued the site it is. Combine this with the ordinary search rankings from e.g. DDG, Bing, YaCy, or whatever, and Bob’s your uncle.</p>
+<p>Heck, you don’t even have to make a new search engine. Just make a block list for uBlock that hides links to plagued sites.</p>
+<p>I don’t see how this could fall prey to Goodhart’s law. It’s pretty hard to pretend like your site doesn’t run ads, right?</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>
